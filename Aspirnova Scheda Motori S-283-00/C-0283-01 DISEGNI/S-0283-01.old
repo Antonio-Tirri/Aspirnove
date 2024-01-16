@@ -1,0 +1,1323 @@
+( {OrCAD PCB II Netlist Format}
+ ( 00000001 CR1220_HFN BT1 CR-1220/HFN
+  ( + NetBT1_+ )
+  ( - AGND )
+ )
+ ( 00000002 C0603 C1 12pF 50V
+  ( 1 NetC1_1 )
+  ( 2 AGND )
+ )
+ ( 00000003 C0603 C2 12pF 50V
+  ( 1 NetC2_1 )
+  ( 2 AGND )
+ )
+ ( 00000004 C0805 C3 10nF 50V
+  ( 1 NetC3_1 )
+  ( 2 AGND )
+ )
+ ( 00000005 C0805 C4 10nF 50V
+  ( 1 NetC3_1 )
+  ( 2 NetC4_2 )
+ )
+ ( 00000006 CAP_L16_W8_P10 C5 100nF 275Vac
+  ( 1 BYP_C )
+  ( 2 MAIN_N )
+ )
+ ( 00000007 C0805 C6 100nF 50V
+  ( 1 NetC6_1 )
+  ( 2 NetC6_2 )
+ )
+ ( 00000008 C0603 C7 12pF 50V
+  ( 1 USB_DP )
+  ( 2 AGND )
+ )
+ ( 00000009 C0603 C8 12pF 50V
+  ( 1 USB_DN )
+  ( 2 AGND )
+ )
+ ( 00000010 C0805 C9 10nF 50V
+  ( 1 AGND )
+  ( 2 NetC6_2 )
+ )
+ ( 00000011 C0805 C10 10nF 50V
+  ( 1 NetC4_2 )
+  ( 2 NetC6_2 )
+ )
+ ( 00000012 C0805 C11 100nF 50V
+  ( 1 NetC4_2 )
+  ( 2 AGND )
+ )
+ ( 00000013 ELE-G-1030 C12 470uF 35V
+  ( 1 NetC4_2 )
+  ( 2 AGND )
+ )
+ ( 00000014 ELE-G-1030 C13 470uF 35V
+  ( 1 NetC4_2 )
+  ( 2 AGND )
+ )
+ ( 00000015 CAP_L16_W8_P10 C14 100nF 275Vac
+  ( 1 EARTH )
+  ( 2 AGND )
+ )
+ ( 00000016 C0805 C15 100nF 50V
+  ( 1 VCC_UNREG )
+  ( 2 AGND )
+ )
+ ( 00000017 C0805 C16 1uF 50V
+  ( 1 VCC_UNREG )
+  ( 2 AGND )
+ )
+ ( 00000018 C0603 C17 1uF 50V
+  ( 1 VCC_3V3 )
+  ( 2 AGND )
+ )
+ ( 00000019 C0603 C18 1nF 50V
+  ( 1 NetC18_1 )
+  ( 2 AGND )
+ )
+ ( 00000020 C0603 C19 1nF 50V
+  ( 1 NetC19_1 )
+  ( 2 AGND )
+ )
+ ( 00000021 C0603 C20 100nF 50V
+  ( 1 JTAG_RESET )
+  ( 2 AGND )
+ )
+ ( 00000022 C0603 C21 100nF 50V
+  ( 1 VCC_VUSB )
+  ( 2 AGND )
+ )
+ ( 00000023 C0603 C22 100nF 50V
+  ( 1 NetC22_1 )
+  ( 2 AGND )
+ )
+ ( 00000024 C0603 C23 12pF 50V
+  ( 1 NetC23_1 )
+  ( 2 AGND )
+ )
+ ( 00000025 C0603 C24 12pF 50V
+  ( 1 NetC24_1 )
+  ( 2 AGND )
+ )
+ ( 00000026 C0603 C25 100nF 50V
+  ( 1 VCC_3V3 )
+  ( 2 AGND )
+ )
+ ( 00000027 C0603 C26 100nF 50V
+  ( 1 VCC_3V3 )
+  ( 2 AGND )
+ )
+ ( 00000028 C0603 C27 100nF 50V
+  ( 1 VCC_3V3 )
+  ( 2 AGND )
+ )
+ ( 00000029 C0805 C28 4.7uF 16V
+  ( 1 VCC_3V3 )
+  ( 2 AGND )
+ )
+ ( 00000030 C0603 C29 10nF 50V
+  ( 1 VCC_3V3A )
+  ( 2 AGND )
+ )
+ ( 00000031 C0603 C30 1uf 50V
+  ( 1 VCC_3V3A )
+  ( 2 AGND )
+ )
+ ( 00000032 C0603 C31 100nF 50V
+  ( 1 VCC_3V3 )
+  ( 2 AGND )
+ )
+ ( 00000033 C0805 C32 1uF 50V
+  ( 1 VCC_UNREG )
+  ( 2 AGND )
+ )
+ ( 00000034 C1206 C33 10uF 25V
+  ( 1 VCC_3V3 )
+  ( 2 AGND )
+ )
+ ( 00000035 C0603 C34 150pF 50V
+  ( 1 NetC34_1 )
+  ( 2 AGND )
+ )
+ ( 00000036 C0603 C35 100nF 50V
+  ( 1 NetC35_1 )
+  ( 2 AGND )
+ )
+ ( 00000037 C0603 C36 10nF 50V
+  ( 1 IN_CO2 )
+  ( 2 AGND )
+ )
+ ( 00000038 C0603 C37 1uF 50V
+  ( 1 AN0_CO2 )
+  ( 2 AGND )
+ )
+ ( 00000039 C0603 C38 10nF 50V
+  ( 1 IN_AUX1 )
+  ( 2 AGND )
+ )
+ ( 00000040 Tant_Case-D-7343 C39 100uF TANT 20V
+  ( 1 VCC_12V )
+  ( 2 AGND )
+ )
+ ( 00000041 C0603 C40 100nF 50V
+  ( 1 VCC_12V )
+  ( 2 AGND )
+ )
+ ( 00000042 C1206 C41 10uF 25V
+  ( 1 VCC_3V3 )
+  ( 2 AGND )
+ )
+ ( 00000043 C0603 C42 10nF 50V
+  ( 1 NetC42_1 )
+  ( 2 NetC42_2 )
+ )
+ ( 00000044 C0603 C43 100pF 50V
+  ( 1 NetC42_1 )
+  ( 2 AGND )
+ )
+ ( 00000045 C0603 C44 1uF 50V
+  ( 1 AN1_AUX1 )
+  ( 2 AGND )
+ )
+ ( 00000046 C0603 C45 10nF 50V
+  ( 1 IN_AUX2 )
+  ( 2 AGND )
+ )
+ ( 00000047 C0603 C46 1uF 50V
+  ( 1 AN2_AUX2 )
+  ( 2 AGND )
+ )
+ ( 00000048 C0603 C47 10nF 50V
+  ( 1 NetC47_1 )
+  ( 2 AGND )
+ )
+ ( 00000049 C0603 C48 2.2uF 25V
+  ( 1 NetC48_1 )
+  ( 2 AGND )
+ )
+ ( 00000050 C0603 C49 2.2uF 25V
+  ( 1 NetC49_1 )
+  ( 2 AGND )
+ )
+ ( 00000051 C0603 C50 100nF 50V
+  ( 1 VCC_3V3 )
+  ( 2 AGND )
+ )
+ ( 00000052 C0603 C51 100nF 50V
+  ( 1 VCC_3V3 )
+  ( 2 AGND )
+ )
+ ( 00000053 C0603 C52 1uF 50V
+  ( 1 AN2_TEMP_INT )
+  ( 2 AGND )
+ )
+ ( 00000054 C0603 C53 10nF 50V
+  ( 1 NetC53_1 )
+  ( 2 AGND )
+ )
+ ( 00000055 C0603 C54 1uF 50V
+  ( 1 AN14_TEMP_EXT )
+  ( 2 AGND )
+ )
+ ( 00000056 C0603 C55 1uF 50V
+  ( 1 VCC_12V )
+  ( 2 AGND )
+ )
+ ( 00000057 C0603 C56 100nF 50V
+  ( 1 VCC_12V )
+  ( 2 AGND )
+ )
+ ( 00000058 C0603 C57 100pF 50V
+  ( 1 NetC57_1 )
+  ( 2 NetC57_2 )
+ )
+ ( 00000059 C0603 C58 1uF 50V
+  ( 1 NetC58_1 )
+  ( 2 AGND )
+ )
+ ( 00000060 C0603 C59 1uF 50V
+  ( 1 NetC59_1 )
+  ( 2 AGND )
+ )
+ ( 00000061 C0603 C60 10nF 50V
+  ( 1 NetC60_1 )
+  ( 2 AGND )
+ )
+ ( 00000062 C0603 C61 100pF 50V
+  ( 1 NetC61_1 )
+  ( 2 NetC61_2 )
+ )
+ ( 00000063 C0603 C62 1uF 50V
+  ( 1 NetC62_1 )
+  ( 2 AGND )
+ )
+ ( 00000064 C0603 C63 1uF 50V
+  ( 1 NetC63_1 )
+  ( 2 AGND )
+ )
+ ( 00000065 C0603 C64 10nF 50V
+  ( 1 NetC64_1 )
+  ( 2 AGND )
+ )
+ ( 00000066 C0603 C65 100pF 50V
+  ( 1 NetC65_1 )
+  ( 2 NetC65_2 )
+ )
+ ( 00000067 C0603 C66 1uF 50V
+  ( 1 NetC66_1 )
+  ( 2 AGND )
+ )
+ ( 00000068 C0603 C67 1uF 50V
+  ( 1 NetC67_1 )
+  ( 2 AGND )
+ )
+ ( 00000069 C0603 C68 10nF 50V
+  ( 1 NetC68_1 )
+  ( 2 AGND )
+ )
+ ( 00000070 C0603 C69 100pF 50V
+  ( 1 NetC69_1 )
+  ( 2 NetC69_2 )
+ )
+ ( 00000071 C0603 C70 1uF 50V
+  ( 1 NetC70_1 )
+  ( 2 AGND )
+ )
+ ( 00000072 C0603 C71 1uF 50V
+  ( 1 NetC71_1 )
+  ( 2 AGND )
+ )
+ ( 00000073 C0603 C72 10nF 50V
+  ( 1 NetC72_1 )
+  ( 2 AGND )
+ )
+ ( 00000074 C0603 C73 100nF 50V
+  ( 1 DIN_LV1 )
+  ( 2 AGND )
+ )
+ ( 00000075 C0603 C74 100nF 50V
+  ( 1 DIN_LV2 )
+  ( 2 AGND )
+ )
+ ( 00000076 C0603 C75 100nF 50V
+  ( 1 DIN_TERMOST )
+  ( 2 AGND )
+ )
+ ( 00000077 C0603 C76 100nF 50V
+  ( 1 DIN_FILTRO )
+  ( 2 AGND )
+ )
+ ( 00000078 C0603 C77 10nF 50V
+  ( 1 TACH_F1 )
+  ( 2 AGND )
+ )
+ ( 00000079 C0603 C78 10nF 50V
+  ( 1 NetC78_1 )
+  ( 2 AGND )
+ )
+ ( 00000080 C0603 C79 10nF 50V
+  ( 1 AGND )
+  ( 2 NetC79_2 )
+ )
+ ( 00000081 C0603 C80 10nF 50V
+  ( 1 TACH_F2 )
+  ( 2 AGND )
+ )
+ ( 00000082 C0603 C81 10nF 50V
+  ( 1 NetC81_1 )
+  ( 2 AGND )
+ )
+ ( 00000083 C0603 C82 10nF 50V
+  ( 1 AGND )
+  ( 2 NetC82_2 )
+ )
+ ( 00000084 DF04S_1234 D1 DF04S
+  ( 1 NetC4_2 )
+  ( 2 AGND )
+  ( 3 NetC3_1 )
+  ( 4 NetC6_2 )
+ )
+ ( 00000085 D_MiniMELF_SOD80_AK D2 3.9VZ 1/2W
+  ( A AGND )
+  ( K VCC_3V3 )
+ )
+ ( 00000086 SOT-23_A1_K2_N D3 BAV199
+  ( A1 AGND )
+  ( K2 VCC_3V3A )
+  ( N AN0_CO2 )
+ )
+ ( 00000087 D_SMB_DO-214AA_AK D4 STPS340U
+  ( A AGND )
+  ( K NetD4_K )
+ )
+ ( 00000088 SOT-23_A1_K2_N D5 BAV199
+  ( A1 AGND )
+  ( K2 VCC_3V3A )
+  ( N AN1_AUX1 )
+ )
+ ( 00000089 SOT-23_A1_K2_N D6 BAV199
+  ( A1 AGND )
+  ( K2 VCC_3V3A )
+  ( N AN2_AUX2 )
+ )
+ ( 00000090 SOT-23_A1_K2_N D7 BAV199
+  ( A1 AGND )
+  ( K2 VCC_3V3A )
+  ( N AN2_TEMP_INT )
+ )
+ ( 00000091 SOT-23_A1_K2_N D8 BAV199
+  ( A1 AGND )
+  ( K2 VCC_3V3A )
+  ( N AN14_TEMP_EXT )
+ )
+ ( 00000092 D_SOD-123_AK D9 1N4148
+  ( A DIN_TERMOST )
+  ( K NetD9_K )
+ )
+ ( 00000093 D_SOD-123_AK D10 1N4148
+  ( A DIN_FILTRO )
+  ( K NetD10_K )
+ )
+ ( 00000094 D_SOD-123_AK D11 1N4148
+  ( A NetD11_A )
+  ( K VCC_12V )
+ )
+ ( 00000095 D_SOD-123_AK D12 1N4148
+  ( A NetD12_A )
+  ( K VCC_12V )
+ )
+ ( 00000096 D_SOD-123_AK D13 1N4148
+  ( A NetD13_A )
+  ( K VCC_12V )
+ )
+ ( 00000097 D_SOD-123_AK D14 1N4148
+  ( A DIN_LV1 )
+  ( K NetD14_K )
+ )
+ ( 00000098 D_SOD-123_AK D15 1N4148
+  ( A NetD15_A )
+  ( K VCC_12V )
+ )
+ ( 00000099 D_SMB_DO-214AA_AK D16 S2M
+  ( A VCC_12V )
+  ( K NetD16_K )
+ )
+ ( 00000100 D_SOD-123_AK D17 1N4148
+  ( A NetD17_A )
+  ( K VCC_12V )
+ )
+ ( 00000101 D_SOD-123_AK D18 1N4148
+  ( A DIN_LV2 )
+  ( K NetD18_K )
+ )
+ ( 00000102 LED0805_AK DL1 LED ROSSO
+  ( A VCC_3V3 )
+  ( K NetDL1_K )
+ )
+ ( 00000103 LED0805_AK DL2 LED VERDE
+  ( A VCC_3V3 )
+  ( K NetDL2_K )
+ )
+ ( 00000104 LED0805_AK DL3 LED VERDE
+  ( A VCC_3V3 )
+  ( K NetDL3_K )
+ )
+ ( 00000105 LED0805_AK DL4 LED VERDE
+  ( A VCC_3V3 )
+  ( K NetDL4_K )
+ )
+ ( 00000106 LED0805_AK DL5 LED ROSSO
+  ( A NetDL5_A )
+  ( K NetD11_A )
+ )
+ ( 00000107 LED0805_AK DL6 LED ROSSO
+  ( A NetDL6_A )
+  ( K NetD12_A )
+ )
+ ( 00000108 LED0805_AK DL7 LED ROSSO
+  ( A NetDL7_A )
+  ( K NetD13_A )
+ )
+ ( 00000109 LED0805_AK DL8 LED ROSSO
+  ( A NetDL8_A )
+  ( K DIN_LV1 )
+ )
+ ( 00000110 LED0805_AK DL9 LED ROSSO
+  ( A NetDL9_A )
+  ( K NetD15_A )
+ )
+ ( 00000111 LED0805_AK DL10 LED ROSSO
+  ( A NetDL10_A )
+  ( K DIN_LV2 )
+ )
+ ( 00000112 LED0805_AK DL12 LED ROSSO
+  ( A NetDL12_A )
+  ( K DIN_TERMOST )
+ )
+ ( 00000113 LED0805_AK DL13 LED ROSSO
+  ( A NetDL13_A )
+  ( K DIN_FILTRO )
+ )
+ ( 00000114 LED0805_AK DL14 LED ROSSO
+  ( A NetDL14_A )
+  ( K NetD17_A )
+ )
+ ( 00000115 STLEVIO_PTF78 F1 5x20
+  ( 1 NetC6_1 )
+  ( 2 NetC3_1 )
+ )
+ ( 00000116 PTC_7.2x3mm_Pitch5mm F2 72V, 0.20A
+  ( 1 NetC35_1 )
+  ( 2 VCC_12V )
+ )
+ ( 00000117 PTC_7.2x3mm_Pitch5mm F3 72V, 0.20A
+  ( 1 NetD16_K )
+  ( 2 NetF3_2 )
+ )
+ ( 00000118 SCHURTER_FPG4 F4 5x20
+  ( 1 FAN1_C )
+  ( 2 BYP_C )
+ )
+ ( 00000119 SCHURTER_FPG4 F5 5x20
+  ( 1 FAN2_C )
+  ( 2 BYP_C )
+ )
+ ( 00000120 SIX5 J4 STRIP2.54-1X5-H11.6-M
+  ( 1 VCC_3V3 )
+  ( 2 JTAG_SWDIO )
+  ( 3 JTAG_SWCLK )
+  ( 4 JTAG_RESET )
+  ( 5 AGND )
+ )
+ ( 00000121 WURTH_651005136421 J5 651005136421
+  ( 1 VCC_VUSB )
+  ( 2 USB_N )
+  ( 3 USB_P )
+  ( 4 NetJ5_4 )
+  ( 5 AGND )
+  ( S NetC22_1 )
+ )
+ ( 00000122 SIX3 J8 STRIP2.54-1X3-H11.6-M
+  ( 1 NetJ8_1 )
+  ( 2 NetJ8_2 )
+  ( 3 AGND )
+ )
+ ( 00000123 SIX2 JP1 JMP2
+  ( 1 RS485_B )
+  ( 2 NetJP1_2 )
+ )
+ ( 00000124 SIX2 JP2 JMP2
+  ( 1 NetBT1_+ )
+  ( 2 NetJP2_2 )
+ )
+ ( 00000125 OMRON_G2R2_PINOUT_ESBI_SPECIAL_2 K1 HF115FK/12-Z3T
+  ( 1 NetD11_A )
+  ( 2 NetK1_2 )
+  ( 3 FAN1_C )
+  ( 4 FAN1_NO )
+  ( 5 FAN1_NO )
+  ( 6 FAN1_C )
+  ( 7 NetK1_7 )
+  ( 8 VCC_12V )
+ )
+ ( 00000126 OMRON_G2R2_PINOUT_ESBI_SPECIAL_2 K2 HF115FK/12-Z3T
+  ( 1 NetD12_A )
+  ( 2 NetK2_2 )
+  ( 3 FAN2_C )
+  ( 4 FAN2_NO )
+  ( 5 FAN2_NO )
+  ( 6 FAN2_C )
+  ( 7 NetK2_7 )
+  ( 8 VCC_12V )
+ )
+ ( 00000127 OMRON_G2R2_PINOUT_ESBI_SPECIAL_2 K3 HF115FK/12-Z3T
+  ( 1 NetD13_A )
+  ( 2 NetK3_2 )
+  ( 3 BATT_C )
+  ( 4 BATT_NO )
+  ( 5 BATT_NO )
+  ( 6 BATT_C )
+  ( 7 NetK3_7 )
+  ( 8 VCC_12V )
+ )
+ ( 00000128 OMRON_G2R2_PINOUT_ESBI_SPECIAL_2 K5 HF115FK/12-Z3T
+  ( 1 NetD17_A )
+  ( 2 NetK5_2 )
+  ( 3 AUX_C )
+  ( 4 AUX_NO )
+  ( 5 AUX_NO )
+  ( 6 AUX_C )
+  ( 7 NetK5_7 )
+  ( 8 VCC_12V )
+ )
+ ( 00000129 OMRON_G2R2_PINOUT_ESBI_SPECIAL_2 K6 HF115FK/12-Z3T
+  ( 1 NetD15_A )
+  ( 2 BYP_NC )
+  ( 3 BYP_C )
+  ( 4 BYP_NO )
+  ( 5 BYP_NO )
+  ( 6 BYP_C )
+  ( 7 BYP_NC )
+  ( 8 VCC_12V )
+ )
+ ( 00000130 L0805 L2 HZ0805C202R-10
+  ( 1 VCC_3V3 )
+  ( 2 VCC_3V3A )
+ )
+ ( 00000131 EPCOS_B82464P4153M000 L4 15uH
+  ( 1 NetD4_K )
+  ( 2 VCC_12V )
+ )
+ ( 00000132 PAD_1.2mm_H0.7mm P1 PAD
+  ( 1 512Hz_OUT )
+ )
+ ( 00000133 STELVIO_CUM-5_3 P2 CUM5/3
+  ( 1 BYP_C )
+  ( 2 MAIN_N )
+  ( 3 EARTH )
+ )
+ ( 00000134 STELVIO_CUM-5_3 P3 CUM5/3
+  ( 1 NetC35_1 )
+  ( 2 IN_CO2 )
+  ( 3 AGND )
+ )
+ ( 00000135 STELVIO_CUM-5_4 P4 CUM5/4
+  ( 1 IN_AUX1 )
+  ( 2 AGND )
+  ( 3 IN_AUX2 )
+  ( 4 AGND )
+ )
+ ( 00000136 STELVIO_CUM-5_4 P5 CUM5/4
+  ( 1 NetC47_1 )
+  ( 2 AGND )
+  ( 3 NetC53_1 )
+  ( 4 AGND )
+ )
+ ( 00000137 STELVIO_CUM-5_4 P6 CUM5/4
+  ( 1 NetC64_1 )
+  ( 2 AGND )
+  ( 3 NetC60_1 )
+  ( 4 AGND )
+ )
+ ( 00000138 STELVIO_CUM-5_4 P7 CUM5/4
+  ( 1 NetC72_1 )
+  ( 2 AGND )
+  ( 3 NetC68_1 )
+  ( 4 AGND )
+ )
+ ( 00000139 STELVIO_CUM-5_4 P8 CUM5/4
+  ( 1 NetD14_K )
+  ( 2 AGND )
+  ( 3 NetD18_K )
+  ( 4 AGND )
+ )
+ ( 00000140 STELVIO_CUM-5_4 P9 CUM5/4
+  ( 1 NetD9_K )
+  ( 2 AGND )
+  ( 3 NetD10_K )
+  ( 4 AGND )
+ )
+ ( 00000141 STELVIO_CUM-5_3 P10 CUM5/3
+  ( 1 FAN1_NO )
+  ( 2 MAIN_N )
+  ( 3 EARTH )
+ )
+ ( 00000142 STELVIO_CUM-5_3 P11 CUM5/3
+  ( 1 FAN2_NO )
+  ( 2 MAIN_N )
+  ( 3 EARTH )
+ )
+ ( 00000143 STELVIO_CUM-5_4 P12 CUM5/4
+  ( 1 BYP_NC )
+  ( 2 MAIN_N )
+  ( 3 BYP_NO )
+  ( 4 EARTH )
+ )
+ ( 00000144 STELVIO_CUM-5_4 P13 CUM5/4
+  ( 1 BATT_C )
+  ( 2 BATT_NO )
+  ( 3 AUX_C )
+  ( 4 AUX_NO )
+ )
+ ( 00000145 STELVIO_CUM-5_4 P14 CUM5/4
+  ( 1 NetP14_1 )
+  ( 2 AGND )
+  ( 3 NetP14_3 )
+  ( 4 AGND )
+ )
+ ( 00000146 STELVIO_CUM-5_4 P16 CUM5/4
+  ( 1 NetF3_2 )
+  ( 2 RS485_B )
+  ( 3 RS485_A )
+  ( 4 AGND )
+ )
+ ( 00000147 SOT-23 Q1 PDTC143ET,215
+  ( 1 RELE_FAN1 )
+  ( 2 AGND )
+  ( 3 NetD11_A )
+ )
+ ( 00000148 SOT-23 Q2 PDTC143ET,215
+  ( 1 RELE_FAN2 )
+  ( 2 AGND )
+  ( 3 NetD12_A )
+ )
+ ( 00000149 SOT-23 Q3 PDTC143ET,215
+  ( 1 RELE_BATT )
+  ( 2 AGND )
+  ( 3 NetD13_A )
+ )
+ ( 00000150 SOT-23 Q5 PDTC143ET,215
+  ( 1 RELE_BYP )
+  ( 2 AGND )
+  ( 3 NetD15_A )
+ )
+ ( 00000151 SOT-23 Q6 PDTC143ET,215
+  ( 1 RELE_AUX1 )
+  ( 2 AGND )
+  ( 3 NetD17_A )
+ )
+ ( 00000152 R0603 R1 330 1%
+  ( 1 NetDL2_K )
+  ( 2 LED_ON )
+ )
+ ( 00000153 R0603 R2 1M 1%
+  ( 1 NetC2_1 )
+  ( 2 NetC1_1 )
+ )
+ ( 00000154 R0603 R3 330 1%
+  ( 1 NetDL3_K )
+  ( 2 LED_PC1 )
+ )
+ ( 00000155 R0603 R4 330 1%
+  ( 1 NetDL4_K )
+  ( 2 LED_PC2 )
+ )
+ ( 00000156 R_Axial_0.250W_L6.3mm_D2.5mm_P10.16mm_Horizontal R5 1K 0.5W
+  ( 1 EARTH )
+  ( 2 AGND )
+ )
+ ( 00000157 R0805 R6 470 1%
+  ( 1 VCC_3V3 )
+  ( 2 NetR6_2 )
+ )
+ ( 00000158 R0603 R7 0
+  ( 1 NetJ5_4 )
+  ( 2 AGND )
+ )
+ ( 00000159 R0805 R8 4.7 1%
+  ( 1 NetD4_K )
+  ( 2 NetC34_1 )
+ )
+ ( 00000160 R0603 R9 10K 1%
+  ( 1 AN0_CO2 )
+  ( 2 IN_CO2 )
+ )
+ ( 00000161 R0603 R10 3.9K 1%
+  ( 1 AN0_CO2 )
+  ( 2 AGND )
+ )
+ ( 00000162 R0603 R11 10K 1%
+  ( 1 AN1_AUX1 )
+  ( 2 IN_AUX1 )
+ )
+ ( 00000163 R0603 R12 3.9K 1%
+  ( 1 AN1_AUX1 )
+  ( 2 AGND )
+ )
+ ( 00000164 R0603 R13 10K 1%
+  ( 1 AN2_AUX2 )
+  ( 2 IN_AUX2 )
+ )
+ ( 00000165 R0603 R14 3.9K 1%
+  ( 1 AN2_AUX2 )
+  ( 2 AGND )
+ )
+ ( 00000166 R1206 R15 120 1%
+  ( 1 NetJP1_2 )
+  ( 2 RS485_A )
+ )
+ ( 00000167 R0603 R16 0
+  ( 1 NetJ5_4 )
+  ( 2 USB_ID )
+ )
+ ( 00000168 R0805 R17 4.7 1%
+  ( 1 RS485_A )
+  ( 2 NetC18_1 )
+ )
+ ( 00000169 R0805 R18 4.7K 1%
+  ( 1 VCC_3V3A )
+  ( 2 NetC47_1 )
+ )
+ ( 00000170 R0603 R19 1K 1%
+  ( 1 AN2_TEMP_INT )
+  ( 2 NetC47_1 )
+ )
+ ( 00000171 R0805 R20 4.7 1%
+  ( 1 RS485_B )
+  ( 2 NetC19_1 )
+ )
+ ( 00000172 R0805 R21 4.7K 1%
+  ( 1 VCC_3V3A )
+  ( 2 NetC53_1 )
+ )
+ ( 00000173 R0603 R22 1K 1%
+  ( 1 AN14_TEMP_EXT )
+  ( 2 NetC53_1 )
+ )
+ ( 00000174 R0603 R23 10K 1%
+  ( 1 VCC_3V3 )
+  ( 2 JTAG_RESET )
+ )
+ ( 00000175 R0603 R24 10 1%
+  ( 1 USB_DN )
+  ( 2 USB_N )
+ )
+ ( 00000176 R0603 R25 0
+  ( 1 AGND )
+  ( 2 NetR25_2 )
+ )
+ ( 00000177 R0805 R26 1M 1%
+  ( 1 NetC22_1 )
+  ( 2 AGND )
+ )
+ ( 00000178 R0603 R27 330 1%
+  ( 1 NetDL1_K )
+  ( 2 LED_ERR )
+ )
+ ( 00000179 R0603 R28 220 1%
+  ( 1 NetR28_1 )
+  ( 2 NetC24_1 )
+ )
+ ( 00000180 R0603 R29 12K 1%
+  ( 1 NetC57_1 )
+  ( 2 AGND )
+ )
+ ( 00000181 R0603 R30 27K 1%
+  ( 1 NetC60_1 )
+  ( 2 NetC57_1 )
+ )
+ ( 00000182 R0603 R31 10K 1%
+  ( 1 VCC_3V3 )
+  ( 2 FLASH_MISO )
+ )
+ ( 00000183 R0603 R32 10K 1%
+  ( 1 VCC_3V3 )
+  ( 2 FLASH_CS )
+ )
+ ( 00000184 R0603 R33 10K 1%
+  ( 1 VCC_3V3 )
+  ( 2 NetR33_2 )
+ )
+ ( 00000185 R0603 R34 4.7K 1%
+  ( 1 NetC58_1 )
+  ( 2 ANOUT_FAN1 )
+ )
+ ( 00000186 R0603 R35 4.7K 1%
+  ( 1 NetC59_1 )
+  ( 2 NetC58_1 )
+ )
+ ( 00000187 R0603 R36 4.7K 1%
+  ( 1 NetR36_1 )
+  ( 2 NetC59_1 )
+ )
+ ( 00000188 R0603 R37 12K 1%
+  ( 1 NetC61_1 )
+  ( 2 AGND )
+ )
+ ( 00000189 R0603 R38 27K 1%
+  ( 1 NetC64_1 )
+  ( 2 NetC61_1 )
+ )
+ ( 00000190 R0603 R39 10K 1%
+  ( 1 VCC_12V )
+  ( 2 NetR39_2 )
+ )
+ ( 00000191 R0603 R40 1.1K 1%
+  ( 1 NetR39_2 )
+  ( 2 AGND )
+ )
+ ( 00000192 R0603 R41 10K 1%
+  ( 1 NetC42_2 )
+  ( 2 AGND )
+ )
+ ( 00000193 R0603 R42 4.7K 1%
+  ( 1 NetC62_1 )
+  ( 2 ANOUT_FAN2 )
+ )
+ ( 00000194 R0603 R43 4.7K 1%
+  ( 1 NetC63_1 )
+  ( 2 NetC62_1 )
+ )
+ ( 00000195 R0603 R44 4.7K 1%
+  ( 1 NetR44_1 )
+  ( 2 NetC63_1 )
+ )
+ ( 00000196 R0603 R45 12K 1%
+  ( 1 NetC65_1 )
+  ( 2 AGND )
+ )
+ ( 00000197 R0603 R46 27K 1%
+  ( 1 NetC68_1 )
+  ( 2 NetC65_1 )
+ )
+ ( 00000198 R0603 R47 4.7K 1%
+  ( 1 NetC66_1 )
+  ( 2 ANOUT_H2O )
+ )
+ ( 00000199 R0603 R48 4.7K 1%
+  ( 1 NetC67_1 )
+  ( 2 NetC66_1 )
+ )
+ ( 00000200 R0603 R49 4.7K 1%
+  ( 1 NetR49_1 )
+  ( 2 NetC67_1 )
+ )
+ ( 00000201 R0603 R50 12K 1%
+  ( 1 NetC69_1 )
+  ( 2 AGND )
+ )
+ ( 00000202 R0603 R51 10 1%
+  ( 1 USB_DP )
+  ( 2 USB_P )
+ )
+ ( 00000203 R0603 R52 27K 1%
+  ( 1 NetC72_1 )
+  ( 2 NetC69_1 )
+ )
+ ( 00000204 R0603 R53 4.7K 1%
+  ( 1 NetC70_1 )
+  ( 2 ANOUT_BATT )
+ )
+ ( 00000205 R0603 R54 4.7K 1%
+  ( 1 NetC71_1 )
+  ( 2 NetC70_1 )
+ )
+ ( 00000206 R0603 R55 4.7K 1%
+  ( 1 NetR55_1 )
+  ( 2 NetC71_1 )
+ )
+ ( 00000207 R0603 R56 560 1%
+  ( 1 VCC_3V3 )
+  ( 2 NetDL8_A )
+ )
+ ( 00000208 R0603 R57 560 1%
+  ( 1 VCC_3V3 )
+  ( 2 NetDL10_A )
+ )
+ ( 00000209 R0603 R58 10K 1%
+  ( 1 VCC_3V3 )
+  ( 2 DIN_LV1 )
+ )
+ ( 00000210 R0603 R59 10K 1%
+  ( 1 VCC_3V3 )
+  ( 2 DIN_LV2 )
+ )
+ ( 00000211 R0603 R64 10K 1%
+  ( 1 VCC_3V3 )
+  ( 2 DIN_TERMOST )
+ )
+ ( 00000212 R0603 R65 10K 1%
+  ( 1 VCC_3V3 )
+  ( 2 DIN_FILTRO )
+ )
+ ( 00000213 R0603 R66 4.7K 1%
+  ( 1 VCC_12V )
+  ( 2 NetDL5_A )
+ )
+ ( 00000214 R0603 R67 4.7K 1%
+  ( 1 VCC_12V )
+  ( 2 NetDL6_A )
+ )
+ ( 00000215 R0603 R68 4.7K 1%
+  ( 1 VCC_12V )
+  ( 2 NetDL7_A )
+ )
+ ( 00000216 R0603 R69 0
+  ( 1 NetBT1_+ )
+  ( 2 NetJP2_2 )
+ )
+ ( 00000217 R0603 R70 4.7K 1%
+  ( 1 VCC_12V )
+  ( 2 NetDL9_A )
+ )
+ ( 00000218 R0603 R71 1K 1%
+  ( 1 NetR71_1 )
+  ( 2 RS485_RX )
+ )
+ ( 00000219 R0603 R72 1K 1%
+  ( 1 RS485_DIR )
+  ( 2 NetR72_2 )
+ )
+ ( 00000220 R0603 R73 1K 1%
+  ( 1 RS485_TX )
+  ( 2 NetR73_2 )
+ )
+ ( 00000221 R0603 R74 1K 1%
+  ( 1 NetJ8_1 )
+  ( 2 UART5_RX )
+ )
+ ( 00000222 R0603 R75 10K 1%
+  ( 1 NetR72_2 )
+  ( 2 AGND )
+ )
+ ( 00000223 R0603 R76 0
+  ( 1 NetJP2_2 )
+  ( 2 VCC_3V3 )
+ )
+ ( 00000224 R0805 R77 1.5K 1%
+  ( 1 NetR6_2 )
+  ( 2 AGND )
+ )
+ ( 00000225 R0805 R78 1.5K 1%
+  ( 1 NetR6_2 )
+  ( 2 AGND )
+ )
+ ( 00000226 R1206 R79 0
+  ( 1 NetF3_2 )
+  ( 2 NetD16_K )
+ )
+ ( 00000227 R1206 R80 0
+  ( 1 VCC_12V )
+  ( 2 NetC35_1 )
+ )
+ ( 00000228 R0603 R81 1K 1%
+  ( 1 NetJ8_2 )
+  ( 2 UART5_TX )
+ )
+ ( 00000229 R1206 R82 0
+  ( 1 VCC_UNREG )
+  ( 2 NetC4_2 )
+ )
+ ( 00000230 R0603 R83 47K 1%
+  ( 1 VCC_3V3 )
+  ( 2 NetC78_1 )
+ )
+ ( 00000231 R0603 R84 47K 1%
+  ( 1 VCC_3V3 )
+  ( 2 NetC79_2 )
+ )
+ ( 00000232 R0603 R85 560 1%
+  ( 1 VCC_3V3 )
+  ( 2 NetDL12_A )
+ )
+ ( 00000233 R0603 R86 560 1%
+  ( 1 VCC_3V3 )
+  ( 2 NetDL13_A )
+ )
+ ( 00000234 R0603 R87 4.7K 1%
+  ( 1 VCC_12V )
+  ( 2 NetDL14_A )
+ )
+ ( 00000235 R0603 R88 0
+  ( 1 AGND )
+  ( 2 UART5_RX )
+ )
+ ( 00000236 R0603 R89 0
+  ( 1 AGND )
+  ( 2 UART5_TX )
+ )
+ ( 00000237 R0603 R90 100 1%
+  ( 1 NetP14_1 )
+  ( 2 NetC78_1 )
+ )
+ ( 00000238 R0603 R91 100 1%
+  ( 1 NetR91_1 )
+  ( 2 TACH_F1 )
+ )
+ ( 00000239 R0603 R92 5.6K 1%
+  ( 1 NetC78_1 )
+  ( 2 AGND )
+ )
+ ( 00000240 R0603 R93 47K 1%
+  ( 1 NetC79_2 )
+  ( 2 AGND )
+ )
+ ( 00000241 R0603 R94 47K 1%
+  ( 1 VCC_3V3 )
+  ( 2 NetC81_1 )
+ )
+ ( 00000242 R0603 R95 47K 1%
+  ( 1 VCC_3V3 )
+  ( 2 NetC82_2 )
+ )
+ ( 00000243 R0603 R96 100 1%
+  ( 1 NetP14_3 )
+  ( 2 NetC81_1 )
+ )
+ ( 00000244 R0603 R97 100 1%
+  ( 1 NetR97_1 )
+  ( 2 TACH_F2 )
+ )
+ ( 00000245 R0603 R98 5.6K 1%
+  ( 1 NetC81_1 )
+  ( 2 AGND )
+ )
+ ( 00000246 R0603 R99 47K 1%
+  ( 1 NetC82_2 )
+  ( 2 AGND )
+ )
+ ( 00000247 R0603 R100 0
+  ( 1 NetC78_1 )
+  ( 2 NetR91_1 )
+ )
+ ( 00000248 R0603 R101 0
+  ( 1 NetC81_1 )
+  ( 2 NetR97_1 )
+ )
+ ( 00000249 TE_GDH08S04 SW1 GDH08S04
+  ( 1 DIP_1 )
+  ( 2 DIP_2 )
+  ( 3 DIP_3 )
+  ( 4 DIP_4 )
+  ( 5 DIP_5 )
+  ( 6 DIP_6 )
+  ( 7 DIP_7 )
+  ( 8 NetSW1_8 )
+  ( 9 NetSW1_9 )
+  ( 10 AGND )
+  ( 11 AGND )
+  ( 12 AGND )
+  ( 13 AGND )
+  ( 14 AGND )
+  ( 15 AGND )
+  ( 16 AGND )
+ )
+ ( 00000250 TE_GDH02S04 SW2 GDH02S04
+  ( 1 DIN_LV1 )
+  ( 2 DIN_LV2 )
+  ( 3 AGND )
+  ( 4 AGND )
+ )
+ ( 00000251 MYRRA_44270 TR1 15V 6VA
+  ( 1 MAIN_N )
+  ( 5 BYP_C )
+  ( 7 NetC6_1 )
+  ( 9 NetC6_2 )
+ )
+ ( 00000252 D_SOD-128_AK TVS1 PTVS13VP1UTP
+  ( A AGND )
+  ( K IN_CO2 )
+ )
+ ( 00000253 D_SOD-128_AK TVS2 PTVS13VP1UTP
+  ( A AGND )
+  ( K IN_AUX1 )
+ )
+ ( 00000254 D_SOD-128_AK TVS3 PTVS13VP1UTP
+  ( A AGND )
+  ( K IN_AUX2 )
+ )
+ ( 00000255 D_SOD-128_AK TVS4 PTVS13VP1UTP
+  ( A AGND )
+  ( K NetC47_1 )
+ )
+ ( 00000256 D_SOD-128_AK TVS5 PTVS13VP1UTP
+  ( A AGND )
+  ( K NetC53_1 )
+ )
+ ( 00000257 D_SOD-128_AK TVS6 PTVS13VP1UTP
+  ( A AGND )
+  ( K NetC60_1 )
+ )
+ ( 00000258 D_SOD-128_AK TVS7 PTVS13VP1UTP
+  ( A AGND )
+  ( K NetC64_1 )
+ )
+ ( 00000259 D_SOD-128_AK TVS8 PTVS13VP1UTP
+  ( A AGND )
+  ( K NetC68_1 )
+ )
+ ( 00000260 D_SOD-128_AK TVS9 PTVS13VP1UTP
+  ( A AGND )
+  ( K NetC72_1 )
+ )
+ ( 00000261 SOT-23 TVS10 CDSOT23-SM712
+  ( 1 RS485_A )
+  ( 2 RS485_B )
+  ( 3 AGND )
+ )
+ ( 00000262 D_SMB_DO-214AA TVS11 SM6T30CA
+  ( 1 AGND )
+  ( 2 NetC4_2 )
+ )
+ ( 00000263 D_SOD-128_AK TVS12 PTVS13VP1UTP
+  ( A AGND )
+  ( K NetP14_1 )
+ )
+ ( 00000264 D_SOD-128_AK TVS13 PTVS13VP1UTP
+  ( A AGND )
+  ( K NetP14_3 )
+ )
+ ( 00000265 SOIC-8W_5.3x5.3mm_Pitch1.27mm U1 S25FL164K0XMFI011
+  ( 1 FLASH_CS )
+  ( 2 FLASH_MISO )
+  ( 3 NetR33_2 )
+  ( 4 AGND )
+  ( 5 FLASH_MOSI )
+  ( 6 FLASH_SCK )
+  ( 7 NetR33_2 )
+  ( 8 VCC_3V3 )
+ )
+ ( 00000266 TO-252-3Lead_4TAB U2 LM1117IDTX-ADJ/NOPB
+  ( 1 NetR6_2 )
+  ( 2 VCC_3V3 )
+  ( 3 VCC_12V )
+  ( 4 VCC_3V3 )
+ )
+ ( 00000267 SOIC-8_3.9x4.9mm_Pitch1.27mm U3 TS922ID
+  ( 1 NetR91_1 )
+  ( 2 NetC78_1 )
+  ( 3 NetC79_2 )
+  ( 4 AGND )
+  ( 5 NetC82_2 )
+  ( 6 NetC81_1 )
+  ( 7 NetR97_1 )
+  ( 8 VCC_3V3 )
+ )
+ ( 00000268 TSSOP-14_4.4x5mm_Pitch0.65mm U4 LM224DTBR2G
+  ( 1 NetC57_2 )
+  ( 2 NetC57_1 )
+  ( 3 NetR36_1 )
+  ( 4 VCC_12V )
+  ( 5 NetR44_1 )
+  ( 6 NetC61_1 )
+  ( 7 NetC61_2 )
+  ( 8 NetC65_2 )
+  ( 9 NetC65_1 )
+  ( 10 NetR49_1 )
+  ( 11 AGND )
+  ( 12 NetR55_1 )
+  ( 13 NetC69_1 )
+  ( 14 NetC69_2 )
+ )
+ ( 00000269 R0805 U5 10 1%
+  ( 1 NetC60_1 )
+  ( 2 NetC57_2 )
+ )
+ ( 00000270 SOT-23-6_SC74 U6 USBLC6-2SC6
+  ( 1 USB_N )
+  ( 2 AGND )
+  ( 3 USB_P )
+  ( 4 USB_P )
+  ( 5 VCC_VUSB )
+  ( 6 USB_N )
+ )
+ ( 00000271 R0805 U7 10 1%
+  ( 1 NetC64_1 )
+  ( 2 NetC61_2 )
+ )
+ ( 00000272 R0805 U8 10 1%
+  ( 1 NetC68_1 )
+  ( 2 NetC65_2 )
+ )
+ ( 00000273 SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm U9 L5973D013TR
+  ( 1 NetD4_K )
+  ( 2 NetU9_2 )
+  ( 3 AGND )
+  ( 4 NetC42_1 )
+  ( 5 NetR39_2 )
+  ( 6 NetU9_6 )
+  ( 7 AGND )
+  ( 8 VCC_UNREG )
+  ( 9 AGND )
+ )
+ ( 00000274 R0805 U10 10 1%
+  ( 1 NetC72_1 )
+  ( 2 NetC69_2 )
+ )
+ ( 00000275 QFP-64_10x10mm_Pitch0.5mm U11 STM32F205RCT6
+  ( 1 NetJP2_2 )
+  ( 2 512Hz_OUT )
+  ( 3 NetC1_1 )
+  ( 4 NetC2_1 )
+  ( 5 NetC23_1 )
+  ( 6 NetR28_1 )
+  ( 7 JTAG_RESET )
+  ( 8 DIP_1 )
+  ( 9 DIP_2 )
+  ( 10 DIP_3 )
+  ( 11 DIP_4 )
+  ( 12 AGND )
+  ( 13 VCC_3V3A )
+  ( 14 AN0_CO2 )
+  ( 15 AN1_AUX1 )
+  ( 16 AN2_AUX2 )
+  ( 17 AN14_TEMP_EXT )
+  ( 18 AGND )
+  ( 19 VCC_3V3 )
+  ( 20 FLASH_CS )
+  ( 21 FLASH_SCK )
+  ( 22 FLASH_MISO )
+  ( 23 FLASH_MOSI )
+  ( 24 AN2_TEMP_INT )
+  ( 25 RELE_AUX1 )
+  ( 26 TACH_F1 )
+  ( 27 TACH_F2 )
+  ( 28 DIP_5 )
+  ( 29 ANOUT_H2O )
+  ( 30 ANOUT_BATT )
+  ( 31 NetC49_1 )
+  ( 32 VCC_3V3 )
+  ( 33 RELE_FAN2 )
+  ( 34 RELE_BATT )
+  ( 35 DIP_7 )
+  ( 36 RELE_FAN1 )
+  ( 37 RELE_BYP )
+  ( 38 DIN_TERMOST )
+  ( 39 DIN_FILTRO )
+  ( 40 DIN_LV2 )
+  ( 41 DIN_LV1 )
+  ( 42 VCC_VUSB )
+  ( 43 USB_ID )
+  ( 44 USB_DN )
+  ( 45 USB_DP )
+  ( 46 JTAG_SWDIO )
+  ( 47 NetC48_1 )
+  ( 48 VCC_3V3 )
+  ( 49 JTAG_SWCLK )
+  ( 50 ANOUT_FAN1 )
+  ( 51 LED_ERR )
+  ( 52 LED_ON )
+  ( 53 UART5_TX )
+  ( 54 UART5_RX )
+  ( 55 ANOUT_FAN2 )
+  ( 56 DIP_6 )
+  ( 57 RS485_DIR )
+  ( 58 RS485_TX )
+  ( 59 RS485_RX )
+  ( 60 NetR25_2 )
+  ( 61 LED_PC1 )
+  ( 62 LED_PC2 )
+  ( 63 AGND )
+  ( 64 VCC_3V3 )
+ )
+ ( 00000276 SOIC-8_3.9x4.9mm_Pitch1.27mm U14 SN65HVD75D
+  ( 1 NetR71_1 )
+  ( 2 NetR72_2 )
+  ( 3 NetR72_2 )
+  ( 4 NetR73_2 )
+  ( 5 AGND )
+  ( 6 NetC18_1 )
+  ( 7 NetC19_1 )
+  ( 8 VCC_3V3 )
+ )
+ ( 00000277 RV_Disc_D13_W6_P7.5 VR1 S14K275E
+  ( 1 MAIN_N )
+  ( 2 BYP_C )
+ )
+ ( 00000278 RV_Disc_D13_W6_P7.5 VR2 S14K275E
+  ( 1 MAIN_N )
+  ( 2 FAN1_NO )
+ )
+ ( 00000279 RV_Disc_D13_W6_P7.5 VR3 S14K275E
+  ( 1 MAIN_N )
+  ( 2 FAN2_NO )
+ )
+ ( 00000280 Crystal_SMD_HC49 Y1 12MHz
+  ( 1 NetC23_1 )
+  ( 2 NetC24_1 )
+ )
+ ( 00000281 AB38T Y2 32.768kHz
+  ( 1 NetC1_1 )
+  ( 2 NetC2_1 )
+ )
+)

@@ -1,0 +1,6 @@
+uart5.c:49:6:Uart5_IRQHandler	4	static
+uart5.c:107:5:Uart5_SendChar	0	static
+uart5.c:138:5:Uart5_Send	16	static
+uart5.c:28:5:Uart5_Init	16	static
+uart5.c:153:5:Uart5_RecvChar	0	static
+uart5.c:173:5:Uart5_Recv	16	static

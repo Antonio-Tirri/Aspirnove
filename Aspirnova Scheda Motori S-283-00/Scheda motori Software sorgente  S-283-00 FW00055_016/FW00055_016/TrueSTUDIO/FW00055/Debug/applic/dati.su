@@ -1,0 +1,7 @@
+dati.c:27:15:checksum	24	static
+dati.c:45:10:Dati_StatusLoad	16	static
+dati.c:72:6:Dati_StatusSave	16	static
+dati.c:101:6:Dati_Init	16	static
+dati.c:152:6:Dati_LoadDefaultParameters	16	static
+dati.c:183:6:Dati_Load	24	static
+dati.c:207:6:Dati_Save	32	static

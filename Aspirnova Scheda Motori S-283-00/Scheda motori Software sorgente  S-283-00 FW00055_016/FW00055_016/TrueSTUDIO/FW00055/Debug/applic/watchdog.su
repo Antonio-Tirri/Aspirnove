@@ -1,0 +1,4 @@
+watchdog.c:19:6:Watchdog_Init	8	static
+watchdog.c:29:6:Watchdog_Poll	4	static
+watchdog.c:36:6:Watchdog_OnTimer	8	static
+watchdog.c:53:6:Watchdog_ForcedReset	4	static

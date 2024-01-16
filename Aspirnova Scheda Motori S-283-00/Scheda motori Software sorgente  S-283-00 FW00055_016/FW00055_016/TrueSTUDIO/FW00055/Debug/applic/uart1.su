@@ -1,0 +1,7 @@
+uart1.c:34:5:Uart1_Init	8	static
+uart1.c:57:6:Uart1_IRQHandler	16	static
+uart1.c:121:5:Uart1_SendChar	16	static
+uart1.c:152:5:Uart1_Send	24	static
+uart1.c:167:5:Uart1_RecvChar	16	static
+uart1.c:187:5:Uart1_Recv	24	static
+uart1.c:202:6:Uart1_RTOManagement	8	static

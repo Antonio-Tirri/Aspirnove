@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>FW00054 - ASPIRNOVA Scheda Display Biano-Nero</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.ico"/></td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">FW00054 - ASPIRNOVA Scheda Display Biano-Nero </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><dl class="section author"><dt>Autore</dt><dd>Walter Giusiano - lab3841 srl <br />
+<a href="#" onclick="location.href='mai'+'lto:'+'wal'+'te'+'r.g'+'iu'+'sia'+'no'+'@la'+'b3'+'841'+'.i'+'t'; return false;">walte<span style="display: none;">.nosp@m.</span>r.gi<span style="display: none;">.nosp@m.</span>usian<span style="display: none;">.nosp@m.</span>o@la<span style="display: none;">.nosp@m.</span>b3841<span style="display: none;">.nosp@m.</span>.it</a></dd></dl>
+<dl class="section version"><dt>Versione</dt><dd><b>FW00054.001</b> - 29/03/2019<ul>
+<li>Versione demo Aspirnova</li>
+</ul>
+</dd>
+<dd>
+<b>FW00054.002</b> - 04/04/2019<ul>
+<li>Versione con modifiche richieste dal cliente</li>
+</ul>
+</dd>
+<dd>
+<b>FW00054.003</b> - 16/04/2019<ul>
+<li>Aggiunto gestione orari</li>
+</ul>
+</dd>
+<dd>
+<b>FW00054.004</b> - 27/06/2019<ul>
+<li>Impostato numero slave di default = 1 anzichè 10</li>
+<li>Aggiunto, nel menu di programmazione del display, la possibilità di selezionare il logo da visualizzare all'accensione. (NESSUNO - ASPIRNOVA)</li>
+</ul>
+</dd>
+<dd>
+<b>FW00054.005</b> - 26/09/2019<ul>
+<li>Aumentato il tempo pressione tasti per accedere al menu amministratore da 2 a 15 secondi.</li>
+</ul>
+</dd>
+<dd>
+<b>FW00054.006</b> - 19/12/2019<ul>
+<li>Ridotto il tempo pressione tasti per accedere al menu amministratore da 15 a 5 secondi.</li>
+<li>Nel menu invertito le diciture di mandata ventola e ritorno ventola. Da questa versione: Mandata Ventola = FAN1, Ritorno Ventola = FAN2, .</li>
+</ul>
+</dd>
+<dd>
+<b>FW00054.007</b> - 13/11/2020<ul>
+<li>COMPATIBILE SOLO CON VERSIONI BOOTLOADER FW00052.002 O SUCCESSIVE</li>
+<li>Impostato micro corretto nel progetto: STM32F205RC (256K) anzichè STM32F205RB (128K). A parte il primo prototipo, tutti i lotti prodotti utilizzano già questo micro.</li>
+<li>Modificato la grafica della videata principale per creare spazio per le nuove funzioni</li>
+<li>Gestione tasti come su display a colore (frecce + tasto modifica/conferma)</li>
+<li>Baud rate configurabile da menu display (115200 - 9600 - 19200)</li>
+<li>Aggiunto possibilità di disabilitare il buzzer (da menu display)</li>
+<li>Aggiunto gestione ingressi ritorno motori (se la scheda di controllo è una 0283)</li>
+<li>Aggiunto videata ventole per vedere il valore degli ingressi ritorno motori</li>
+<li>Modificato segnalazioni allarmi generici (led e campana + messaggio di errore)</li>
+<li>Aggiunto funzione antincendio</li>
+<li>Aggiunto funzioni sterilizzatore e ingresso sanificazione</li>
+<li>Aggiunto lingua spagnolo</li>
+<li>Aggiunto visualizzazione percentuale umidità (letta dal sensore sulla scheda di controllo)</li>
+<li>Modificato funzione standby: mantengo la videata di lavoro riducendo soltanto al minimo la retroilluminazione</li>
+<li>Gestione nuovo hardware Rev.02 del 9/11/2020 (6 dip anzichè 4, 2 pin per identificare l'hardware, UART per RS485 slave. Mantenuta compatibilità con revisioni hardware precedente)</li>
+</ul>
+</dd>
+<dd>
+<b>FW00054.008</b> - 25/01/2021<ul>
+<li>Aggiunto voce, nel menu di programmazion del display, per impostare o meno la visualizzazione del riscaldatore (icona serpentina + percentuale riscaldatore) nella videata principale.</li>
+<li>Buzzer: attivo di default.</li>
+</ul>
+</dd>
+<dd>
+<b>FW00054.009</b> - 23/09/2021<ul>
+<li>Aggiunto gestione Fill Box</li>
+<li>Modifica visualizzazione percentuali ventole: con valori &gt;= 100 il rettangolo del cursore non veniva correttamente cancellato (rimanevano alcuni pixel a ON a destra del valore).</li>
+</ul>
+</dd>
+<dd>
+<b>FW00054.010</b> - 17/02/2022<ul>
+<li>Aggiunto parametro soglia umidità (voce menu e registro modbus).</li>
+</ul>
+</dd>
+<dd>
+<b>FW00054.011</b> - 09/05/2022<ul>
+<li>Modalità programmi: per ogni orario del calendario aggiunto modalità lavoro (auto/manuale) e percentuale ventole.</li>
+</ul>
+</dd>
+<dd>
+<b>FW00054.012</b> - 11/01/2023<ul>
+<li>Aggiunto voce menu per la visualizzazione dei conta ore.</li>
+</ul>
+</dd></dl>
+<p><br />
+ <br />
+ <br />
+ <b>Descrizione segnalazioni del led presente su scheda</b><br />
+</p><table class="doxtable">
+<tr>
+<th>Stato LED </th><th>Segnalazione  </th></tr>
+<tr>
+<td>Alternato ROSSO/ARANCIONE/VERDE </td><td><b>Bootloader in esecuzione.</b>  </td></tr>
+<tr>
+<td>SPENTO </td><td>Le ventole (di tutte le schede controllo) sono spente o azionate con un comando inferiore al 30%  </td></tr>
+<tr>
+<td>VERDE </td><td>Ventole azionate (su almeno una delle schede di controllo) senza anomalie rilevate  </td></tr>
+<tr>
+<td>ROSSO </td><td>Ventole azionate con ingresso filtro sporco (su almeno una delle schede di controllo) oppure ingresso allarme sanificazione attivo  </td></tr>
+<tr>
+<td>ARANCIONE </td><td>Ventole azionate ma ingressi ritorno ventole non rilevati (su almeno una delle schede di controllo)   </td></tr>
+</table>
+<p><br />
+</p>
+<p><b>Menu</b><br />
+Per scorrere le voci utilizzare i tasti frecce. Per confermare utilizzare il tasto M. Per abbandonare il menu selezionare la voce ESC oppure premere il tasto ON. <br />
+</p>
+<p><br />
+<br />
+******************* <br />
+Per accedere al menu di programmazione del display, alimentare il sistema mantenendo il tasto M premuto. <br />
+Voci menu: <br />
+</p><ul>
+<li>SCHEDE CONTROLLO: per impostare il numero di schede controllo collegate al display</li>
+<li>LINGUA: per impostare la lingua di sistema (ITA - ENG - SPA)</li>
+<li>DISPLAY: per regolare contrasto e retroilluminazione</li>
+<li>LOGO: per selezionare il logo da visualizzare all'accensione (NESSUNO - ASPIRNOVA)</li>
+<li>BUZZER: abilita/disabilita l'uscita BUZZER</li>
+<li>BAUD RATE: per selezionare la velocità di comunicazione sulle linee 485 (115200 - 19200 - 9600)</li>
+<li>VISUAL.RISCALDATORE: abilita/disabilita visualizzazione serpentina+percentuale nella videata principale</li>
+<li>MODALITA': imposta modalità di lavoro del display (STANDARD - FILLBOX)</li>
+<li>AGGIORNAMENTO FW: per abilitare il sistema alla ricezione di un nuovo firmware <br />
+<br />
+******************* <br />
+Per accedere al menu di programmazione delle schede controllo con LIVELLO UTILIZZATORE, spostarsi nella videata relativa alla scheda desiderata e premere per alcuni secondi il tasto M. <br />
+Voci menu: <br />
+</li>
+<li>VENTOLA 1: percentuale comando ventola 1</li>
+<li>VENTOLA 2: percentuale comando ventola 2</li>
+<li>STAGIONE: Inverno/Estate</li>
+<li>SOGLIA TEMPERATURA: temperatura di riferimento</li>
+<li>SOGLIA CO2: soglia CO2 di riferimento</li>
+<li>SOGLIA UMIDITA': soglia umidità di riferimento</li>
+<li>PROGRAMMI: orari di attivazione nella modalità PROGRAMMI</li>
+<li>OROLOGIO: settaggio orologio presente sulla scheda controllo</li>
+<li>TACHO VENTOLE: videata per il debug degli ingressi ritorno ventole</li>
+<li>CALENDARIO STERILIZZATORE: orari di attivazione della funzione sterilizzatore</li>
+<li>CONTA ORE: visualizza conta ore totali e parziali. Se si accede con LIVELLO AMMINISTRATORE sarà inoltre possibile azzerare le ore parziali. <br />
+<br />
+******************* <br />
+Per accedere al menu di programmazione delle schede controllo con LIVELLO AMMINISTRATORE, spostarsi nella videata relativa alla scheda desiderata, premere il tasto M e successivamente il tasto BP e mantenere la pressione di entrambi per 15 secondi. <br />
+Voci menu: (oltre a quelle già descritte per il livello utilizzatore)</li>
+<li>TERMOSTATO: abilita/disabilita l'ingresso TERMOSTATO</li>
+<li>QUALITA' ARIA: abilita/disabilita il controllo di CO2</li>
+<li>MIN VENTOLA: minima percentuale di comando applicabile alle uscite ventole</li>
+<li>MAX VENTOLA: massima percentuale di comando applicabile alle uscite ventole</li>
+<li>STERILIZZATORE: abilita/disabilita la funzione sterilizzatore / ingresso sanificazione</li>
+<li>ANTINCENDIO: abilita/disabilita la funzione antincendio</li>
+<li>SENSORE UMIDITA': abilita/disabilita il sensore di umidità</li>
+<li>MODALITA': imposta modalità di lavoro della scheda di controllo (STANDARD - FILLBOX)</li>
+<li>AGGIORNAMENTO FW: per abilitare il sistema alla ricezione di un nuovo firmware <br />
+<br />
+</li>
+</ul>
+<p><br />
+ <br />
+ <br />
+ <br />
+ </p>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

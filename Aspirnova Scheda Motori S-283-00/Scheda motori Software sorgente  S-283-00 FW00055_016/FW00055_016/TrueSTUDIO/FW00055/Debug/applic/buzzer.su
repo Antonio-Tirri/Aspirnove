@@ -1,0 +1,2 @@
+buzzer.c:14:9:Buzzer_Beep	4	static
+buzzer.c:21:9:Buzzer_Poll	8	static

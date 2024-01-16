@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Riferimenti per il file D:/svn/firmware/FW00054/trunk/applic/display.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.ico"/></td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_977779389457dde46da7584d925d163b.html">applic</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definizioni</a> &#124;
+<a href="#func-members">Funzioni</a>  </div>
+  <div class="headertitle">
+<div class="title">Riferimenti per il file display.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Modulo gestione display. Interfaccia con le funzioni GLCD.  
+<a href="#details">Continua...</a></p>
+<div class="textblock"><code>#include &quot;main.h&quot;</code><br />
+</div>
+<p><a href="display_8h_source.html">Vai al codice sorgente di questo file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Definizioni</h2></td></tr>
+<tr class="memitem:a12652b339c470542fc90a7bde13b6e2f"><td class="memItemLeft" align="right" valign="top"><a id="a12652b339c470542fc90a7bde13b6e2f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_DATA_DIR_IN</b>&#160;&#160;&#160;(0)</td></tr>
+<tr class="separator:a12652b339c470542fc90a7bde13b6e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8420a9fb9fd99d270a92843c4f5584e"><td class="memItemLeft" align="right" valign="top"><a id="ab8420a9fb9fd99d270a92843c4f5584e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DISPLAY_DATA_DIR_OUT</b>&#160;&#160;&#160;(1)</td></tr>
+<tr class="separator:ab8420a9fb9fd99d270a92843c4f5584e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e8cfb766015ed17b3548e6f2b58ff0e"><td class="memItemLeft" align="right" valign="top"><a id="a4e8cfb766015ed17b3548e6f2b58ff0e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PORT_DISPLAY_DATA</b>&#160;&#160;&#160;LCD_D0_GPIO_Port</td></tr>
+<tr class="separator:a4e8cfb766015ed17b3548e6f2b58ff0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28ce83508628d130c0735a3806c35a2f"><td class="memItemLeft" align="right" valign="top"><a id="a28ce83508628d130c0735a3806c35a2f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>CS_On</b>()&#160;&#160;&#160;HAL_GPIO_WritePin(LCD_CS_GPIO_Port, 	LCD_CS_Pin, 	GPIO_PIN_SET)</td></tr>
+<tr class="separator:a28ce83508628d130c0735a3806c35a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4de4ebff1041e1de47b736a0723ec7f3"><td class="memItemLeft" align="right" valign="top"><a id="a4de4ebff1041e1de47b736a0723ec7f3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>CS_Off</b>()&#160;&#160;&#160;HAL_GPIO_WritePin(LCD_CS_GPIO_Port, 	LCD_CS_Pin, 	GPIO_PIN_RESET)</td></tr>
+<tr class="separator:a4de4ebff1041e1de47b736a0723ec7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a261dd95a6b84de036425b59968dc9e19"><td class="memItemLeft" align="right" valign="top"><a id="a261dd95a6b84de036425b59968dc9e19"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RESET_On</b>()&#160;&#160;&#160;HAL_GPIO_WritePin(LCD_CLR_GPIO_Port, 	LCD_CLR_Pin, 	GPIO_PIN_SET)</td></tr>
+<tr class="separator:a261dd95a6b84de036425b59968dc9e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bae416dd4d3656aad2cdea97223c1a6"><td class="memItemLeft" align="right" valign="top"><a id="a2bae416dd4d3656aad2cdea97223c1a6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RESET_Off</b>()&#160;&#160;&#160;HAL_GPIO_WritePin(LCD_CLR_GPIO_Port, 	LCD_CLR_Pin, 	GPIO_PIN_RESET)</td></tr>
+<tr class="separator:a2bae416dd4d3656aad2cdea97223c1a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adde319b9f234b5f1b65c1844bb462783"><td class="memItemLeft" align="right" valign="top"><a id="adde319b9f234b5f1b65c1844bb462783"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RS_On</b>()&#160;&#160;&#160;HAL_GPIO_WritePin(LCD_RS_GPIO_Port, 	LCD_RS_Pin, 	GPIO_PIN_SET)</td></tr>
+<tr class="separator:adde319b9f234b5f1b65c1844bb462783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac389d9c5d122cddd522e4ed28971fb1d"><td class="memItemLeft" align="right" valign="top"><a id="ac389d9c5d122cddd522e4ed28971fb1d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RS_Off</b>()&#160;&#160;&#160;HAL_GPIO_WritePin(LCD_RS_GPIO_Port, 	LCD_RS_Pin, 	GPIO_PIN_RESET)</td></tr>
+<tr class="separator:ac389d9c5d122cddd522e4ed28971fb1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af09c08432af2c96a10f5e5432f9d9128"><td class="memItemLeft" align="right" valign="top"><a id="af09c08432af2c96a10f5e5432f9d9128"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RW_On</b>()&#160;&#160;&#160;HAL_GPIO_WritePin(LCD_RW_GPIO_Port, 	LCD_RW_Pin, 	GPIO_PIN_SET)</td></tr>
+<tr class="separator:af09c08432af2c96a10f5e5432f9d9128"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5002c46cbc2ce1497d1ae56415e9f565"><td class="memItemLeft" align="right" valign="top"><a id="a5002c46cbc2ce1497d1ae56415e9f565"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RW_Off</b>()&#160;&#160;&#160;HAL_GPIO_WritePin(LCD_RW_GPIO_Port, 	LCD_RW_Pin, 	GPIO_PIN_RESET)</td></tr>
+<tr class="separator:a5002c46cbc2ce1497d1ae56415e9f565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b02e6d444222588db121d9a9d4504fe"><td class="memItemLeft" align="right" valign="top"><a id="a6b02e6d444222588db121d9a9d4504fe"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>EN_On</b>()&#160;&#160;&#160;HAL_GPIO_WritePin(LCD_EN_GPIO_Port, 	LCD_EN_Pin, 	GPIO_PIN_SET)</td></tr>
+<tr class="separator:a6b02e6d444222588db121d9a9d4504fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988c746255c59b2982bd8c29f24dc52c"><td class="memItemLeft" align="right" valign="top"><a id="a988c746255c59b2982bd8c29f24dc52c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>EN_Off</b>()&#160;&#160;&#160;HAL_GPIO_WritePin(LCD_EN_GPIO_Port, 	LCD_EN_Pin, 	GPIO_PIN_RESET)</td></tr>
+<tr class="separator:a988c746255c59b2982bd8c29f24dc52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funzioni</h2></td></tr>
+<tr class="memitem:ac1432d9c5d1c156db3407f048bfb62bb"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="display_8h.html#ac1432d9c5d1c156db3407f048bfb62bb">Display_Init</a> (void)</td></tr>
+<tr class="separator:ac1432d9c5d1c156db3407f048bfb62bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a608a9170c83f0468d00a9952f1d94c53"><td class="memItemLeft" align="right" valign="top"><a id="a608a9170c83f0468d00a9952f1d94c53"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_DATA_WRITE</b> (unsigned char data)</td></tr>
+<tr class="separator:a608a9170c83f0468d00a9952f1d94c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaea7b7e63077733f630412ec8781872a"><td class="memItemLeft" align="right" valign="top"><a id="aaea7b7e63077733f630412ec8781872a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_DATA_DIRECTION</b> (unsigned char dir)</td></tr>
+<tr class="separator:aaea7b7e63077733f630412ec8781872a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c62d29b7a55ee196e5e37c12e18b3e7"><td class="memItemLeft" align="right" valign="top"><a id="a3c62d29b7a55ee196e5e37c12e18b3e7"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>LCD_DATA_READ</b> (void)</td></tr>
+<tr class="separator:a3c62d29b7a55ee196e5e37c12e18b3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrizione dettagliata</h2>
+<div class="textblock"><p>Modulo gestione display. Interfaccia con le funzioni GLCD. </p>
+<dl class="section author"><dt>Autore</dt><dd>Walter Giusiano - lab3841 <br />
+ <a href="#" onclick="location.href='mai'+'lto:'+'wal'+'te'+'r.g'+'iu'+'sia'+'no'+'@la'+'b3'+'841'+'.c'+'om'; return false;">walte<span style="display: none;">.nosp@m.</span>r.gi<span style="display: none;">.nosp@m.</span>usian<span style="display: none;">.nosp@m.</span>o@la<span style="display: none;">.nosp@m.</span>b3841<span style="display: none;">.nosp@m.</span>.com</a></dd></dl>
+<dl class="section version"><dt>Versione</dt><dd>v1.0 - 05/05/2015<ul>
+<li>Versione iniziale </li>
+</ul>
+</dd></dl>
+
+<p class="definition">Definizione nel file <a class="el" href="display_8h_source.html">display.h</a>.</p>
+</div><h2 class="groupheader">Documentazione delle funzioni</h2>
+<a id="ac1432d9c5d1c156db3407f048bfb62bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1432d9c5d1c156db3407f048bfb62bb">&#9670;&nbsp;</a></span>Display_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char Display_Init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inizializza display </p>
+
+<p class="definition">Definizione alla linea <a class="el" href="display_8c_source.html#l00010">10</a> del file <a class="el" href="display_8c_source.html">display.c</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

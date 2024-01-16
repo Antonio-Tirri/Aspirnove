@@ -1,0 +1,6 @@
+usb.c:19:5:USB_Init	4	static
+usb.c:27:16:USB_OnRx	24	static
+usb.c:50:5:USB_RecvChar	16	static
+usb.c:69:16:USB_Recv	24	static
+usb.c:84:16:USB_Send	16	static
+usb.c:94:6:USB_Disable	8	static

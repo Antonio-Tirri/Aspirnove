@@ -1,0 +1,13 @@
+board.c:22:6:Board_Init	8	static
+board.c:28:9:Board_GetHWRev	16	static
+board.c:46:9:Board_GetBaudRate	16	static
+board.c:70:9:Board_GetId	16	static
+board.c:89:6:Board_RequestUpgrade	4	static
+board.c:99:9:isNumber	32	static
+board.c:132:6:GPIO_SetInput	48	static
+board.c:145:6:GPIO_SetOutput	40	static
+board.c:158:6:BATT_Cmd	16	static
+board.c:195:6:FANS_Cmd	16	static
+board.c:302:10:AirQuality_Convert	32	static
+board.c:328:9:Schedule_IsSetTime	24	static
+board.c:369:9:Sterilizer_IsSetTime	24	static

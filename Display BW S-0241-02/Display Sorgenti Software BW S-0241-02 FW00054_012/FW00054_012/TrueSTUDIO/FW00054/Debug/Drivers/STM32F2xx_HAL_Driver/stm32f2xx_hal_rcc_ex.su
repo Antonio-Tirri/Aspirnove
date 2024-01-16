@@ -1,0 +1,2 @@
+stm32f2xx_hal_rcc_ex.c:102:19:HAL_RCCEx_PeriphCLKConfig	32	static
+stm32f2xx_hal_rcc_ex.c:216:6:HAL_RCCEx_GetPeriphCLKConfig	4	static

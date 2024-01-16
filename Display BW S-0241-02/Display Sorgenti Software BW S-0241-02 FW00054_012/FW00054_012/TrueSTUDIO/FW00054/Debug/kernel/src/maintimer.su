@@ -1,0 +1,4 @@
+maintimer.c:11:6:MainTimer_Init	0	static
+maintimer.c:14:6:MainTimer_OnTick	8	static
+maintimer.c:24:14:MainTimer_GetValue	0	static
+maintimer.c:30:6:MainTimer_Wait	0	static

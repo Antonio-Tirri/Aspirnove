@@ -1,0 +1,2 @@
+tastiera.c:11:6:Tastiera_Read	24	static
+tastiera.c:29:6:Tastiera_ForceEnterCmd	4	static

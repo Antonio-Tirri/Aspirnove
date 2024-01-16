@@ -1,0 +1,7 @@
+analog.c:69:6:HAL_ADC_ConvCpltCallback	16	static
+analog.c:74:5:Analog_Init	16	static
+analog.c:103:9:Analog_FilteredValuePresent	4	static
+analog.c:110:10:Analog_Get	16	static
+analog.c:124:7:Analog_GetVolt	32	static
+analog.c:142:5:Analog_Management	24	static
+analog.c:198:5:Analog_Measure	16	static

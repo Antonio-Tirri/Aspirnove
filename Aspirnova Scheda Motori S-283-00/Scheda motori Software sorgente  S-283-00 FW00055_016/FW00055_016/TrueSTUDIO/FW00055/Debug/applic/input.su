@@ -1,0 +1,5 @@
+input.c:19:9:Input_Init	16	static
+input.c:33:9:Input_GetValue	16	static
+input.c:65:9:Input_GetFilteredValue	4	static
+input.c:70:6:Input_Tick	16	static
+input.c:111:6:Input_EXTIEvent	16	static

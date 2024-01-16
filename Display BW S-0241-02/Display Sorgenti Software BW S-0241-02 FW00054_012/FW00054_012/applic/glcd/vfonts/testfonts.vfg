@@ -1,0 +1,80 @@
+/*
+  VFONT test script to be processed by the GENVF.EXE program
+
+  Virtual font description script rules
+  -------------------------------------
+  - Any number of C comments may be used in the script file
+
+  - The virtual font script is a list of filenames. One file name specification pr line.
+    The file name may optionally be specified with a full path or relative path.
+    Relative paths are resolved relative to the location of this vfg file.
+
+    The file  specification order are
+       .bin file    Name of final virtual font image
+    followed by a list of one or more .sym symbol files  or .bmp bitmap data files:
+       .sym file(s)  for conversion to virtual font(s) and inclusion in .bin file.
+       .bmp file(s)  for conversion to one symbol virtual font(s) and inclusion in .bin
+
+    Note: Code page files .cp are specified via the .sym file header and automatically
+    included. They should NOT be added to the list.
+
+  - The current virtual font file .bin specification list is terminated
+    by end-of-vfg-file  or a new .bin file specification.
+    This will cause generation of the following files:
+       my_name.bin   binary image containing virtual font(s). This file is used for
+                     inclusion in (programming into) the virtual memory device.
+       my_name.c     Virtual font structure(s). This file is included by the compilation
+                     project.
+       my_name.h     Prototypes for virtual font(s) to be included by modules using the
+                     virtual font(s). This file must be visible in the compilers include
+                     file path.
+
+  Special handling
+  ----------------
+  - A .bin file name may optionally be followed by a device_id.
+    This can be a number or a symbolic name. The device_id is parsed as a string
+    element to be inserted in the virtual font structure defined by *.c and *.h files.
+    The device_id specification must therefore follow normal C syntax rules for
+    numbers or identifiers. If no device_ID is specified then 0 will be used.
+
+  - A .sym or .bmp file name specification may contain wild card characters ? or *.
+    Wildcard characters are not allowed in the path name or extentions name parts.
+    The files will be included in the order found on the disk. If a specific order
+    is wanted in the .bin file then do not use wildcard characters but specify each
+    file individually.
+
+  - A .sym or .bmp file name specification may optionally be followed by a font name
+    specification.
+    The specified font name is then used instead of the file name.
+    If the specified font name has a wildcard character then the font name will
+    be partly generated from the file name. For instance
+       File name specification: times9.sym
+    Font name specification: *_vf
+    Result in used font name:  times9_vf
+
+  - .bmp files are converted to one symbol fonts.
+    For use with the b&w libraries the bmp file must be generated using the
+    monocrome bitmap format (1 bit pr pixel format).
+
+  Save virtual font image as C byte array data instead of a binary image
+  ----------------------------------------------------------------------
+  The image can be saved as C table data instead of a binary image by exchange
+  the .bin extension with a .ctb extension. The image file is then source code
+  containg a list of bytes. In all other aspects the two mage types behave identical.
+
+    .ctb file    Name of final virtual font image (saved as C table data)
+*/
+
+/* Configure virtual font file image. Place output files in this directory */
+  tstvfont1.bin
+
+/* Include standard library fonts in virtual font image.
+   Do font renaming to avoid name clashing with existing font prototypes */
+..\fonts\mono5_8.sym    v*  // font name vmono5_8
+..\fonts\times13.sym    v*  // font name vtimes13
+
+/* Include custom symbols in virtual font image as one-symbol virtual fonts */
+/* (bmp file must be a monocrome bitmap) */
+//mylogo.bmp
+
+// End

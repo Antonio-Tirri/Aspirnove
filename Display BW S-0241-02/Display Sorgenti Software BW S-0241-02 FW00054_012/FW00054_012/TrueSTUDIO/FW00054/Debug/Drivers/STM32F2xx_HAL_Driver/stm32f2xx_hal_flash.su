@@ -1,0 +1,16 @@
+stm32f2xx_hal_flash.c:616:13:FLASH_Program_DoubleWord	4	static
+stm32f2xx_hal_flash.c:643:13:FLASH_Program_Word	0	static
+stm32f2xx_hal_flash.c:668:13:FLASH_Program_HalfWord	0	static
+stm32f2xx_hal_flash.c:710:13:FLASH_SetErrorCode	0	static
+stm32f2xx_hal_flash.c:231:19:HAL_FLASH_Program_IT	16	static
+stm32f2xx_hal_flash.c:396:13:HAL_FLASH_EndOfOperationCallback	0	static
+stm32f2xx_hal_flash.c:413:13:HAL_FLASH_OperationErrorCallback	0	static
+stm32f2xx_hal_flash.c:278:6:HAL_FLASH_IRQHandler	8	static
+stm32f2xx_hal_flash.c:445:19:HAL_FLASH_Unlock	0	static
+stm32f2xx_hal_flash.c:465:19:HAL_FLASH_Lock	0	static
+stm32f2xx_hal_flash.c:477:19:HAL_FLASH_OB_Unlock	0	static
+stm32f2xx_hal_flash.c:497:19:HAL_FLASH_OB_Lock	0	static
+stm32f2xx_hal_flash.c:546:10:HAL_FLASH_GetError	0	static
+stm32f2xx_hal_flash.c:560:19:FLASH_WaitForLastOperation	16	static
+stm32f2xx_hal_flash.c:173:19:HAL_FLASH_Program	24	static
+stm32f2xx_hal_flash.c:509:19:HAL_FLASH_OB_Launch	8	static

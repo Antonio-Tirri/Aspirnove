@@ -1,0 +1,16 @@
+ariel9.sym     // 7x9 proportional font  
+ariel18.sym    // 18x9 proportional font
+cp8859_9.sym   // 8x9 proportional font 
+cp885914.sym   // 11x14 proportional font
+footnote.sym   // 4x8 proportional font
+times9.sym     // 8x9 propotional font 
+times13.sym    // 8x13 proportional font 
+mono5_8.sym    // 5x8 monospaced font
+mono8_8.sym    // 8x8 monospaced font
+msfont58.sym   // 5x8 monospaced font
+msfont78.sym   // 7x8 monospaced font
+ms58p.sym      // 5x8 proportional font   (+ arrows for menu lib)
+narrow10.sym   // 5x10 proportional font	(+ arrows for menu lib)
+narrow20.sym   // 10x20 proportional font (+ arrows for menu lib)
+uni_16x16.sym  // 16x16 proportional font (unicode font with extended european symbols)
+

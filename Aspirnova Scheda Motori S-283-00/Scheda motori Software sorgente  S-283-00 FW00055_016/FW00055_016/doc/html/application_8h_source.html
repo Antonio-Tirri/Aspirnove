@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title> File sorgente D:/svn/firmware/FW00055/trunk/applic/application.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.ico"/></td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_977779389457dde46da7584d925d163b.html">applic</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">application.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment">// Application info</span></div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor">#define APP_NAME        &quot;FW00055&quot;</span></div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="preprocessor">#define APP_VERSION     &quot;016&quot;</span></div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="preprocessor">#define APP_BUILD       &quot;(Build: &quot; __DATE__ &quot; - &quot; __TIME__ &quot;)&quot;</span></div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="preprocessor">#define APP_COMPANY     &quot;lab3841&quot;</span></div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="preprocessor">#define APP_AUTHOR      &quot;W.Giusiano&quot;</span></div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="preprocessor">#define APP_HARDWARE    &quot;LB00104&quot;</span></div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="comment">// Commentare la define se non si intende utilizzare il bootloader (x debug)</span></div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="preprocessor">#define USE_BOOTLOADER          1</span></div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="comment">// Time main cycle, in ms</span></div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="preprocessor">#define TIME_MAIN_CYCLE     10</span></div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="preprocessor">#define DIP_FILTER          (300 / TIME_MAIN_CYCLE)     // Impostare un tempo superiore ad una lettura AD completa con oversampling (160ms). In questo modo il sistema va in STATUS_WORK con dei valori validi</span></div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="preprocessor">#define TIMEOUT_TACHO       (5000 / TIME_MAIN_CYCLE)</span></div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="keywordtype">void</span> Application_Run(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="keywordtype">void</span> Application_Poll(<span class="keywordtype">void</span>);</div></div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

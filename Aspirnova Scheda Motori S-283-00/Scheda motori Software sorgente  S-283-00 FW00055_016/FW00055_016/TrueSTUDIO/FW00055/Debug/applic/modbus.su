@@ -1,0 +1,11 @@
+modbus.c:56:6:Modbus_LinkInputRegistersTable	16	static
+modbus.c:67:6:Modbus_Init	8	static
+modbus.c:75:5:Modbus_Send	16	static
+modbus.c:95:5:Modbus_CanReadRegister	16	static
+modbus.c:105:5:Modbus_CanWriteRegister	16	static
+modbus.c:115:5:Modbus_SaveRegisterRequired	16	static
+modbus.c:139:12:read16bitRegisters	40	static
+modbus.c:219:12:writeSingleRegister	56	static
+modbus.c:385:5:Modbus_OnPacketReceive	16	static
+modbus.c:413:5:Modbus_ResponseManagement	24	static
+modbus.c:487:5:Modbus_Poll	16	static

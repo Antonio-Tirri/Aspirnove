@@ -1,0 +1,672 @@
+Info: Verifica netlist impronte simboli "Q4:00000142:SOT-23".
+
+Info: Verifica netlist impronte simboli "R6:00000150:R0805".
+
+Info: Verifica netlist impronte simboli "R5:00000149:R_Axial_0.250W_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+
+Info: Verifica netlist impronte simboli "R4:00000148:R0603".
+
+Info: Verifica netlist impronte simboli "R3:00000147:R0603".
+
+Info: Verifica netlist impronte simboli "R2:00000146:R0603".
+
+Info: Verifica netlist impronte simboli "R1:00000145:R0603".
+
+Info: Verifica netlist impronte simboli "Q6:00000144:SOT-23".
+
+Info: Verifica netlist impronte simboli "Q5:00000143:SOT-23".
+
+Info: Verifica netlist impronte simboli "R7:00000151:R0603".
+
+Info: Verifica netlist impronte simboli "Q3:00000141:SOT-23".
+
+Info: Verifica netlist impronte simboli "Q2:00000140:SOT-23".
+
+Info: Verifica netlist impronte simboli "Q1:00000139:SOT-23".
+
+Info: Verifica netlist impronte simboli "P16:00000138:STELVIO_CUM-5_4".
+
+Info: Verifica netlist impronte simboli "TVS6:00000239:D_SOD-128_AK".
+
+Info: Verifica netlist impronte simboli "TVS7:00000240:D_SOD-128_AK".
+
+Info: Verifica netlist impronte simboli "TVS8:00000241:D_SOD-128_AK".
+
+Info: Verifica netlist impronte simboli "TVS9:00000242:D_SOD-128_AK".
+
+Info: Verifica netlist impronte simboli "R16:00000160:R0603".
+
+Info: Verifica netlist impronte simboli "R24:00000168:R0603".
+
+Info: Verifica netlist impronte simboli "R23:00000167:R0603".
+
+Info: Verifica netlist impronte simboli "R22:00000166:R0603".
+
+Info: Verifica netlist impronte simboli "R21:00000165:R0805".
+
+Info: Verifica netlist impronte simboli "R20:00000164:R0805".
+
+Info: Verifica netlist impronte simboli "R19:00000163:R0603".
+
+Info: Verifica netlist impronte simboli "R18:00000162:R0805".
+
+Info: Verifica netlist impronte simboli "R17:00000161:R0805".
+
+Info: Verifica netlist impronte simboli "P15:00000137:STELVIO_CUM-5_4".
+
+Info: Verifica netlist impronte simboli "R15:00000159:R1206".
+
+Info: Verifica netlist impronte simboli "R14:00000158:R0603".
+
+Info: Verifica netlist impronte simboli "R13:00000157:R0603".
+
+Info: Verifica netlist impronte simboli "R12:00000156:R0603".
+
+Info: Verifica netlist impronte simboli "R11:00000155:R0603".
+
+Info: Verifica netlist impronte simboli "R10:00000154:R0603".
+
+Info: Verifica netlist impronte simboli "R9:00000153:R0603".
+
+Info: Verifica netlist impronte simboli "R8:00000152:R0805".
+
+Info: Verifica netlist impronte simboli "K2:00000117:OMRON_G2R2".
+
+Info: Verifica netlist impronte simboli "TVS10:00000243:SOT-23".
+
+Info: Verifica netlist impronte simboli "TVS11:00000244:D_SMB_DO-214AA".
+
+Info: Verifica netlist impronte simboli "K4:00000119:OMRON_G2R2".
+
+Info: Verifica netlist impronte simboli "U1:00000245:SOIC-8W_5.3x5.3mm_Pitch1.27mm".
+
+Info: Verifica netlist impronte simboli "U2:00000246:TO-252-3Lead_4TAB".
+
+Info: Verifica netlist impronte simboli "K3:00000118:OMRON_G2R2".
+
+Info: Verifica netlist impronte simboli "U4:00000247:TSSOP-14_4.4x5mm_Pitch0.65mm".
+
+Info: Verifica netlist impronte simboli "U5:00000248:R0805".
+
+Info: Verifica netlist impronte simboli "K5:00000120:OMRON_G2R2".
+
+Info: Verifica netlist impronte simboli "U6:00000249:SOT-23-6_SC74".
+
+Info: Verifica netlist impronte simboli "U7:00000250:R0805".
+
+Info: Verifica netlist impronte simboli "K1:00000116:OMRON_G2R2".
+
+Info: Verifica netlist impronte simboli "JP1:00000115:SIX2".
+
+Info: Verifica netlist impronte simboli "J8:00000114:SIX3".
+
+Info: Verifica netlist impronte simboli "J5:00000113:WURTH_651005136421".
+
+Info: Verifica netlist impronte simboli "J4:00000112:SIX5".
+
+Info: Verifica netlist impronte simboli "F3:00000111:PTC_7.2x3mm_Pitch5mm".
+
+Info: Verifica netlist impronte simboli "P5:00000128:STELVIO_CUM-5_4".
+
+Info: Verifica netlist impronte simboli "P14:00000136:STELVIO_CUM-5_3".
+
+Info: Verifica netlist impronte simboli "P12:00000135:STELVIO_CUM-5_3".
+
+Info: Verifica netlist impronte simboli "P11:00000134:STELVIO_CUM-5_4".
+
+Info: Verifica netlist impronte simboli "P10:00000133:STELVIO_CUM-5_4".
+
+Info: Verifica netlist impronte simboli "P9:00000132:STELVIO_CUM-5_4".
+
+Info: Verifica netlist impronte simboli "P8:00000131:STELVIO_CUM-5_4".
+
+Info: Verifica netlist impronte simboli "P7:00000130:STELVIO_CUM-5_4".
+
+Info: Verifica netlist impronte simboli "P6:00000129:STELVIO_CUM-5_4".
+
+Info: Verifica netlist impronte simboli "R25:00000169:R0603".
+
+Info: Verifica netlist impronte simboli "P4:00000127:STELVIO_CUM-5_4".
+
+Info: Verifica netlist impronte simboli "P3:00000126:WURTH_691311700103".
+
+Info: Verifica netlist impronte simboli "P2:00000125:STELVIO_CUM-5_3".
+
+Info: Verifica netlist impronte simboli "P1:00000124:PAD_1.2mm_H0.7mm".
+
+Info: Verifica netlist impronte simboli "L4:00000123:EPCOS_B82464P4153M000".
+
+Info: Verifica netlist impronte simboli "L2:00000122:L0805".
+
+Info: Verifica netlist impronte simboli "K6:00000121:OMRON_G2R2".
+
+Info: Verifica netlist impronte simboli "R65:00000209:R0603".
+
+Info: Verifica netlist impronte simboli "R73:00000217:R0603".
+
+Info: Verifica netlist impronte simboli "R72:00000216:R0603".
+
+Info: Verifica netlist impronte simboli "R71:00000215:R0603".
+
+Info: Verifica netlist impronte simboli "R70:00000214:R0603".
+
+Info: Verifica netlist impronte simboli "R69:00000213:R0603".
+
+Info: Verifica netlist impronte simboli "R68:00000212:R0603".
+
+Info: Verifica netlist impronte simboli "R67:00000211:R0603".
+
+Info: Verifica netlist impronte simboli "R66:00000210:R0603".
+
+Info: Verifica netlist impronte simboli "R74:00000218:R0603".
+
+Info: Verifica netlist impronte simboli "R64:00000208:R0603".
+
+Info: Verifica netlist impronte simboli "R63:00000207:R2512".
+
+Info: Verifica netlist impronte simboli "R62:00000206:R2512".
+
+Info: Verifica netlist impronte simboli "R61:00000205:R2512".
+
+Info: Verifica netlist impronte simboli "R60:00000204:R2512".
+
+Info: Verifica netlist impronte simboli "R59:00000203:R2512".
+
+Info: Verifica netlist impronte simboli "R58:00000202:R2512".
+
+Info: Verifica netlist impronte simboli "R57:00000201:R0603".
+
+Info: Verifica netlist impronte simboli "R82:00000226:R1206".
+
+Info: Verifica netlist impronte simboli "TVS1:00000234:D_SOD-128_AK".
+
+Info: Verifica netlist impronte simboli "TR1:00000233:Trafo_CHK-EI30-2VA_2xSec".
+
+Info: Verifica netlist impronte simboli "SW1:00000232:DIPSW-8_W8.89mm".
+
+Info: Verifica netlist impronte simboli "R87:00000231:R0603".
+
+Info: Verifica netlist impronte simboli "R86:00000230:R0603".
+
+Info: Verifica netlist impronte simboli "R85:00000229:R0603".
+
+Info: Verifica netlist impronte simboli "R84:00000228:R0603".
+
+Info: Verifica netlist impronte simboli "R83:00000227:R0603".
+
+Info: Verifica netlist impronte simboli "R56:00000200:R0603".
+
+Info: Verifica netlist impronte simboli "R81:00000225:R0603".
+
+Info: Verifica netlist impronte simboli "R80:00000224:R1206".
+
+Info: Verifica netlist impronte simboli "R79:00000223:R1206".
+
+Info: Verifica netlist impronte simboli "R78:00000222:R0805".
+
+Info: Verifica netlist impronte simboli "R77:00000221:R0805".
+
+Info: Verifica netlist impronte simboli "R76:00000220:R0603".
+
+Info: Verifica netlist impronte simboli "R75:00000219:R0603".
+
+Info: Verifica netlist impronte simboli "R34:00000178:R0603".
+
+Info: Verifica netlist impronte simboli "R42:00000186:R0603".
+
+Info: Verifica netlist impronte simboli "R41:00000185:R0603".
+
+Info: Verifica netlist impronte simboli "R40:00000184:R0603".
+
+Info: Verifica netlist impronte simboli "R39:00000183:R0603".
+
+Info: Verifica netlist impronte simboli "R38:00000182:R0603".
+
+Info: Verifica netlist impronte simboli "R37:00000181:R0603".
+
+Info: Verifica netlist impronte simboli "R36:00000180:R0603".
+
+Info: Verifica netlist impronte simboli "R35:00000179:R0603".
+
+Info: Verifica netlist impronte simboli "R43:00000187:R0603".
+
+Info: Verifica netlist impronte simboli "R33:00000177:R0603".
+
+Info: Verifica netlist impronte simboli "R32:00000176:R0603".
+
+Info: Verifica netlist impronte simboli "R31:00000175:R0603".
+
+Info: Verifica netlist impronte simboli "R30:00000174:R0603".
+
+Info: Verifica netlist impronte simboli "R29:00000173:R0603".
+
+Info: Verifica netlist impronte simboli "R28:00000172:R0603".
+
+Info: Verifica netlist impronte simboli "R27:00000171:R0603".
+
+Info: Verifica netlist impronte simboli "R26:00000170:R0805".
+
+Info: Verifica netlist impronte simboli "TVS5:00000238:D_SOD-128_AK".
+
+Info: Verifica netlist impronte simboli "R55:00000199:R0603".
+
+Info: Verifica netlist impronte simboli "R54:00000198:R0603".
+
+Info: Verifica netlist impronte simboli "R53:00000197:R0603".
+
+Info: Verifica netlist impronte simboli "TVS2:00000235:D_SOD-128_AK".
+
+Info: Verifica netlist impronte simboli "TVS3:00000236:D_SOD-128_AK".
+
+Info: Verifica netlist impronte simboli "R52:00000196:R0603".
+
+Info: Verifica netlist impronte simboli "R51:00000195:R0603".
+
+Info: Verifica netlist impronte simboli "TVS4:00000237:D_SOD-128_AK".
+
+Info: Verifica netlist impronte simboli "F2:00000110:PTC_7.2x3mm_Pitch5mm".
+
+Info: Verifica netlist impronte simboli "R50:00000194:R0603".
+
+Info: Verifica netlist impronte simboli "R49:00000193:R0603".
+
+Info: Verifica netlist impronte simboli "R48:00000192:R0603".
+
+Info: Verifica netlist impronte simboli "R47:00000191:R0603".
+
+Info: Verifica netlist impronte simboli "R46:00000190:R0603".
+
+Info: Verifica netlist impronte simboli "R45:00000189:R0603".
+
+Info: Verifica netlist impronte simboli "R44:00000188:R0603".
+
+Info: Verifica netlist impronte simboli "C38:00000039:C0603".
+
+Info: Verifica netlist impronte simboli "C23:00000024:C0603".
+
+Info: Verifica netlist impronte simboli "C24:00000025:C0603".
+
+Info: Verifica netlist impronte simboli "C25:00000026:C0603".
+
+Info: Verifica netlist impronte simboli "C26:00000027:C0603".
+
+Info: Verifica netlist impronte simboli "C27:00000028:C0603".
+
+Info: Verifica netlist impronte simboli "C28:00000029:C0805".
+
+Info: Verifica netlist impronte simboli "C29:00000030:C0603".
+
+Info: Verifica netlist impronte simboli "C30:00000031:C0603".
+
+Info: Verifica netlist impronte simboli "C31:00000032:C0603".
+
+Info: Verifica netlist impronte simboli "C32:00000033:C0805".
+
+Info: Verifica netlist impronte simboli "C33:00000034:C1206".
+
+Info: Verifica netlist impronte simboli "C34:00000035:C0603".
+
+Info: Verifica netlist impronte simboli "C35:00000036:C0603".
+
+Info: Verifica netlist impronte simboli "C36:00000037:C0603".
+
+Info: Verifica netlist impronte simboli "C37:00000038:C0603".
+
+Info: Verifica netlist impronte simboli "C22:00000023:C0603".
+
+Info: Verifica netlist impronte simboli "C39:00000040:Tant_Case-C-6032".
+
+Info: Verifica netlist impronte simboli "C40:00000041:C0603".
+
+Info: Verifica netlist impronte simboli "C41:00000042:C1206".
+
+Info: Verifica netlist impronte simboli "C42:00000043:C0603".
+
+Info: Verifica netlist impronte simboli "C43:00000044:C0603".
+
+Info: Verifica netlist impronte simboli "C44:00000045:C0603".
+
+Info: Verifica netlist impronte simboli "C45:00000046:C0603".
+
+Info: Verifica netlist impronte simboli "C46:00000047:C0603".
+
+Info: Verifica netlist impronte simboli "C47:00000048:C0603".
+
+Info: Verifica netlist impronte simboli "C48:00000049:C0603".
+
+Info: Verifica netlist impronte simboli "C49:00000050:C0603".
+
+Info: Verifica netlist impronte simboli "C50:00000051:C0603".
+
+Info: Verifica netlist impronte simboli "C51:00000052:C0603".
+
+Info: Verifica netlist impronte simboli "C52:00000053:C0603".
+
+Info: Verifica netlist impronte simboli "C7:00000008:C0603".
+
+Info: Verifica netlist impronte simboli "Y2:00000260:AB38T".
+
+Info: Verifica netlist impronte simboli "Y1:00000259:Crystal_SMD_HC49".
+
+Info: Verifica netlist impronte simboli "VR1:00000258:RV_Disc_D13_W6_P7.5".
+
+Info: Verifica netlist impronte simboli "U14:00000257:SOIC-8_3.9x4.9mm_Pitch1.27mm".
+
+Info: Verifica netlist impronte simboli "U13:00000256:HCPL-817-300E".
+
+Info: Verifica netlist impronte simboli "U12:00000255:HCPL-817-300E".
+
+Info: Verifica netlist impronte simboli "U11:00000254:QFP-64_10x10mm_Pitch0.5mm".
+
+Info: Verifica netlist impronte simboli "U10:00000253:R0805".
+
+Info: Verifica netlist impronte simboli "BT1:00000001:CR1220_HFN".
+
+Info: Verifica netlist impronte simboli "C1:00000002:C0603".
+
+Info: Verifica netlist impronte simboli "C2:00000003:C0603".
+
+Info: Verifica netlist impronte simboli "C3:00000004:C0805".
+
+Info: Verifica netlist impronte simboli "C4:00000005:C0805".
+
+Info: Verifica netlist impronte simboli "C5:00000006:CAP_L16_W8_P10".
+
+Info: Verifica netlist impronte simboli "C6:00000007:C0805".
+
+Info: Verifica netlist impronte simboli "F1:00000109:STLEVIO_PTF78".
+
+Info: Verifica netlist impronte simboli "C8:00000009:C0603".
+
+Info: Verifica netlist impronte simboli "C9:00000010:C0805".
+
+Info: Verifica netlist impronte simboli "C10:00000011:C0805".
+
+Info: Verifica netlist impronte simboli "C11:00000012:C0805".
+
+Info: Verifica netlist impronte simboli "C12:00000013:ELE-G-1030".
+
+Info: Verifica netlist impronte simboli "C13:00000014:ELE-G-1030".
+
+Info: Verifica netlist impronte simboli "C14:00000015:CAP_L16_W8_P10".
+
+Info: Verifica netlist impronte simboli "C15:00000016:C0805".
+
+Info: Verifica netlist impronte simboli "C16:00000017:C0805".
+
+Info: Verifica netlist impronte simboli "C17:00000018:C0603".
+
+Info: Verifica netlist impronte simboli "C18:00000019:C0603".
+
+Info: Verifica netlist impronte simboli "C19:00000020:C0603".
+
+Info: Verifica netlist impronte simboli "C20:00000021:C0603".
+
+Info: Verifica netlist impronte simboli "C21:00000022:C0603".
+
+Info: Verifica netlist impronte simboli "D17:00000094:D_SOD-123_AK".
+
+Info: Verifica netlist impronte simboli "D2:00000079:D_MiniMELF_SOD80_AK".
+
+Info: Verifica netlist impronte simboli "D3:00000080:SOT-23_A1_K2_N".
+
+Info: Verifica netlist impronte simboli "D4:00000081:D_SMB_DO-214AA_AK".
+
+Info: Verifica netlist impronte simboli "D5:00000082:SOT-23_A1_K2_N".
+
+Info: Verifica netlist impronte simboli "D6:00000083:SOT-23_A1_K2_N".
+
+Info: Verifica netlist impronte simboli "D7:00000084:SOT-23_A1_K2_N".
+
+Info: Verifica netlist impronte simboli "D8:00000085:SOT-23_A1_K2_N".
+
+Info: Verifica netlist impronte simboli "D9:00000086:D_SOD-123_AK".
+
+Info: Verifica netlist impronte simboli "D10:00000087:D_SOD-123_AK".
+
+Info: Verifica netlist impronte simboli "D11:00000088:D_SOD-123_AK".
+
+Info: Verifica netlist impronte simboli "D12:00000089:D_SOD-123_AK".
+
+Info: Verifica netlist impronte simboli "D13:00000090:D_SOD-123_AK".
+
+Info: Verifica netlist impronte simboli "D14:00000091:D_SOD-123_AK".
+
+Info: Verifica netlist impronte simboli "D15:00000092:D_SOD-123_AK".
+
+Info: Verifica netlist impronte simboli "D16:00000093:D_SMB_DO-214AA_AK".
+
+Info: Verifica netlist impronte simboli "C54:00000055:C0603".
+
+Info: Verifica netlist impronte simboli "DL1:00000095:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL2:00000096:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL3:00000097:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL4:00000098:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL5:00000099:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL6:00000100:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL7:00000101:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL8:00000102:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL9:00000103:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL10:00000104:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL11:00000105:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL12:00000106:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL13:00000107:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "DL14:00000108:LED0805_AK".
+
+Info: Verifica netlist impronte simboli "C76:00000077:C0603".
+
+Info: Verifica netlist impronte simboli "C53:00000054:C0603".
+
+Info: Verifica netlist impronte simboli "C55:00000056:C0603".
+
+Info: Verifica netlist impronte simboli "C56:00000057:C0603".
+
+Info: Verifica netlist impronte simboli "C57:00000058:C0603".
+
+Info: Verifica netlist impronte simboli "C58:00000059:C0603".
+
+Info: Verifica netlist impronte simboli "C59:00000060:C0603".
+
+Info: Verifica netlist impronte simboli "C60:00000061:C0603".
+
+Info: Verifica netlist impronte simboli "C61:00000062:C0603".
+
+Info: Verifica netlist impronte simboli "C62:00000063:C0603".
+
+Info: Verifica netlist impronte simboli "C63:00000064:C0603".
+
+Info: Verifica netlist impronte simboli "C64:00000065:C0603".
+
+Info: Verifica netlist impronte simboli "C65:00000066:C0603".
+
+Info: Verifica netlist impronte simboli "C66:00000067:C0603".
+
+Info: Verifica netlist impronte simboli "C67:00000068:C0603".
+
+Info: Verifica netlist impronte simboli "C69:00000070:C0603".
+
+Info: Verifica netlist impronte simboli "C68:00000069:C0603".
+
+Info: Verifica netlist impronte simboli "C70:00000071:C0603".
+
+Info: Verifica netlist impronte simboli "C71:00000072:C0603".
+
+Info: Verifica netlist impronte simboli "C72:00000073:C0603".
+
+Info: Verifica netlist impronte simboli "U9:00000252:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm".
+
+Info: Verifica netlist impronte simboli "U8:00000251:R0805".
+
+Info: Verifica netlist impronte simboli "D1:00000078:DF04S_1234".
+
+Info: Verifica netlist impronte simboli "C75:00000076:C0603".
+
+Info: Verifica netlist impronte simboli "C74:00000075:C0603".
+
+Info: Verifica netlist impronte simboli "C73:00000074:C0603".
+
+Rimozione collegamento singola piazzola "NetK2_2" su "K2" piazzola "2"
+
+Rimozione collegamento singola piazzola "NetU11_28" su "U11" piazzola "28"
+
+Rimozione collegamento singola piazzola "NetU11_27" su "U11" piazzola "27"
+
+Rimozione collegamento singola piazzola "NetK2_7" su "K2" piazzola "7"
+
+Rimozione collegamento singola piazzola "NetK3_7" su "K3" piazzola "7"
+
+Rimozione collegamento singola piazzola "NetK3_2" su "K3" piazzola "2"
+
+Rimozione collegamento singola piazzola "NetK4_2" su "K4" piazzola "2"
+
+Rimozione collegamento singola piazzola "NetU11_26" su "U11" piazzola "26"
+
+Rimozione collegamento singola piazzola "NetK4_7" su "K4" piazzola "7"
+
+Rimozione collegamento singola piazzola "NetP12_1" su "P12" piazzola "1"
+
+Rimozione collegamento singola piazzola "NetU9_6" su "U9" piazzola "6"
+
+Rimozione collegamento singola piazzola "NetU9_2" su "U9" piazzola "2"
+
+Rimozione collegamento singola piazzola "NetK1_2" su "K1" piazzola "2"
+
+Rimozione collegamento singola piazzola "NetK1_7" su "K1" piazzola "7"
+
+Cambio impronta "U11:00000254" pin "56" nome collegamento da "" a "NetU11_56".
+
+Cambio impronta "U11:00000254" pin "28" nome collegamento da "" a "NetU11_28".
+
+Cambio impronta "U11:00000254" pin "27" nome collegamento da "" a "NetU11_27".
+
+Cambio impronta "U11:00000254" pin "26" nome collegamento da "" a "NetU11_26".
+
+Cambio impronta "U10:00000253" pin "2" nome collegamento da "" a "NetC69_2".
+
+Cambio impronta "U10:00000253" pin "1" nome collegamento da "" a "NetC72_1".
+
+Cambio impronta "U9:00000252" pin "2" nome collegamento da "" a "NetU9_2".
+
+Cambio impronta "U9:00000252" pin "6" nome collegamento da "" a "NetU9_6".
+
+Cambio impronta "TVS9:00000242" pin "K" nome collegamento da "" a "NetC72_1".
+
+Cambio impronta "TVS9:00000242" pin "A" nome collegamento da "" a "AGND".
+
+Rimozione collegamento singola piazzola "NetU11_56" su "U11" piazzola "56"
+
+Cambio impronta "R52:00000196" pin "2" nome collegamento da "" a "NetC69_1".
+
+Cambio impronta "R52:00000196" pin "1" nome collegamento da "" a "NetC72_1".
+
+Cambio impronta "C69:00000070" pin "2" nome collegamento da "" a "NetC69_2".
+
+Cambio impronta "C69:00000070" pin "1" nome collegamento da "" a "NetC69_1".
+
+Cambio impronta "C72:00000073" pin "1" nome collegamento da "" a "NetC72_1".
+
+Cambio impronta "C72:00000073" pin "2" nome collegamento da "" a "AGND".
+
+Cambio impronta "K1:00000116" pin "7" nome collegamento da "" a "NetK1_7".
+
+Cambio impronta "K1:00000116" pin "2" nome collegamento da "" a "NetK1_2".
+
+Cambio impronta "K2:00000117" pin "7" nome collegamento da "" a "NetK2_7".
+
+Cambio impronta "K2:00000117" pin "2" nome collegamento da "" a "NetK2_2".
+
+Cambio impronta "K3:00000118" pin "7" nome collegamento da "" a "NetK3_7".
+
+Cambio impronta "K3:00000118" pin "2" nome collegamento da "" a "NetK3_2".
+
+Cambio impronta "K4:00000119" pin "2" nome collegamento da "" a "NetK4_2".
+
+Cambio impronta "K4:00000119" pin "7" nome collegamento da "" a "NetK4_7".
+
+Cambio impronta "R50:00000194" pin "2" nome collegamento da "" a "AGND".
+
+Cambio impronta "R50:00000194" pin "1" nome collegamento da "" a "NetC69_1".
+
+Cambio impronta "P15:00000137" pin "1" nome collegamento da "" a "NetF3_2".
+
+Cambio impronta "P15:00000137" pin "2" nome collegamento da "" a "RS485_B".
+
+Cambio impronta "P15:00000137" pin "3" nome collegamento da "" a "RS485_A".
+
+Cambio impronta "P15:00000137" pin "4" nome collegamento da "" a "AGND".
+
+Aggiungi nuovo simbolo "P15:00000137" impronta "STELVIO_CUM-5_4".
+
+Cambio impronta "P12:00000135" pin "1" nome collegamento da "" a "NetP12_1".
+
+Attenzione: L'impronta del simbolo "K6" è cambiata: impronta scheda "Componenti_Custom:OMRON_G2R2_PINOUT_ESBI_SPECIAL_2", collegamento impronta "OMRON_G2R2"
+
+Attenzione: L'impronta del simbolo "P2" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_3", collegamento impronta "STELVIO_CUM-5_3"
+
+Attenzione: L'impronta del simbolo "P14" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_3", collegamento impronta "STELVIO_CUM-5_3"
+
+Attenzione: L'impronta del simbolo "P12" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_3", collegamento impronta "STELVIO_CUM-5_3"
+
+Attenzione: L'impronta del simbolo "P11" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_4", collegamento impronta "STELVIO_CUM-5_4"
+
+Attenzione: L'impronta del simbolo "P10" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_4", collegamento impronta "STELVIO_CUM-5_4"
+
+Attenzione: L'impronta del simbolo "P9" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_4", collegamento impronta "STELVIO_CUM-5_4"
+
+Attenzione: L'impronta del simbolo "P7" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_4", collegamento impronta "STELVIO_CUM-5_4"
+
+Attenzione: L'impronta del simbolo "P6" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_4", collegamento impronta "STELVIO_CUM-5_4"
+
+Attenzione: L'impronta del simbolo "P5" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_4", collegamento impronta "STELVIO_CUM-5_4"
+
+Attenzione: L'impronta del simbolo "P4" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_4", collegamento impronta "STELVIO_CUM-5_4"
+
+Attenzione: L'impronta del simbolo "P16" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_4", collegamento impronta "STELVIO_CUM-5_4"
+
+Attenzione: L'impronta del simbolo "P8" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_4", collegamento impronta "STELVIO_CUM-5_4"
+
+Attenzione: L'impronta del simbolo "P3" è cambiata: impronta scheda "Connectors_STELVIO:STELVIO_CUM-5_3", collegamento impronta "WURTH_691311700103"
+
+Attenzione: L'impronta del simbolo "K5" è cambiata: impronta scheda "Componenti_Custom:OMRON_G2R2_PINOUT_ESBI_SPECIAL_2", collegamento impronta "OMRON_G2R2"
+
+Attenzione: L'impronta del simbolo "K4" è cambiata: impronta scheda "Componenti_Custom:OMRON_G2R2_PINOUT_ESBI_SPECIAL_2", collegamento impronta "OMRON_G2R2"
+
+Attenzione: L'impronta del simbolo "K3" è cambiata: impronta scheda "Componenti_Custom:OMRON_G2R2_PINOUT_ESBI_SPECIAL_2", collegamento impronta "OMRON_G2R2"
+
+Attenzione: L'impronta del simbolo "K2" è cambiata: impronta scheda "Componenti_Custom:OMRON_G2R2_PINOUT_ESBI_SPECIAL_2", collegamento impronta "OMRON_G2R2"
+
+Attenzione: L'impronta del simbolo "K1" è cambiata: impronta scheda "Componenti_Custom:OMRON_G2R2_PINOUT_ESBI_SPECIAL_2", collegamento impronta "OMRON_G2R2"
+
+Attenzione: L'impronta del simbolo "TVS1" è cambiata: impronta scheda "Discreti:D_SOD-128_AK", collegamento impronta "D_SOD-128_AK"
+
+Attenzione: L'impronta del simbolo "TVS9" è cambiata: impronta scheda "Discreti:D_SOD-128_AK", collegamento impronta "D_SOD-128_AK"
+
+Attenzione: L'impronta del simbolo "TVS8" è cambiata: impronta scheda "Discreti:D_SOD-128_AK", collegamento impronta "D_SOD-128_AK"
+
+Attenzione: L'impronta del simbolo "TVS7" è cambiata: impronta scheda "Discreti:D_SOD-128_AK", collegamento impronta "D_SOD-128_AK"
+
+Attenzione: L'impronta del simbolo "TVS6" è cambiata: impronta scheda "Discreti:D_SOD-128_AK", collegamento impronta "D_SOD-128_AK"
+
+Attenzione: L'impronta del simbolo "TVS5" è cambiata: impronta scheda "Discreti:D_SOD-128_AK", collegamento impronta "D_SOD-128_AK"
+
+Attenzione: L'impronta del simbolo "TVS4" è cambiata: impronta scheda "Discreti:D_SOD-128_AK", collegamento impronta "D_SOD-128_AK"
+
+Attenzione: L'impronta del simbolo "TVS3" è cambiata: impronta scheda "Discreti:D_SOD-128_AK", collegamento impronta "D_SOD-128_AK"
+
+Attenzione: L'impronta del simbolo "TVS2" è cambiata: impronta scheda "Discreti:D_SOD-128_AK", collegamento impronta "D_SOD-128_AK"
+
+Attenzione: L'impronta del simbolo "D1" è cambiata: impronta scheda "Diode_Bridge:DF04S_1234", collegamento impronta "DF04S_1234"
+

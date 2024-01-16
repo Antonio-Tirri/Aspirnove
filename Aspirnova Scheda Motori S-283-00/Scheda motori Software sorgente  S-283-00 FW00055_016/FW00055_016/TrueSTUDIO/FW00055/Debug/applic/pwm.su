@@ -1,0 +1,6 @@
+pwm.c:12:5:PWM_Init	8	static
+pwm.c:30:5:PWM_Set	16	static
+pwm.c:59:10:PWM_GetMaxValue	16	static
+pwm.c:74:5:PWM_SetPercent	24	static
+pwm.c:93:9:PID_H2O_Poll	32	static
+pwm.c:128:9:PID_FAN_Poll	40	static

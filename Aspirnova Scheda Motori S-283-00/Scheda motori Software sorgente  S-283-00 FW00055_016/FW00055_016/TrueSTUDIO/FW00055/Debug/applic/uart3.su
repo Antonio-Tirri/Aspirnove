@@ -1,0 +1,6 @@
+uart3.c:28:5:Uart3_Init	8	static
+uart3.c:49:6:Uart3_IRQHandler	16	static
+uart3.c:107:5:Uart3_SendChar	16	static
+uart3.c:138:5:Uart3_Send	24	static
+uart3.c:153:5:Uart3_RecvChar	16	static
+uart3.c:173:5:Uart3_Recv	24	static

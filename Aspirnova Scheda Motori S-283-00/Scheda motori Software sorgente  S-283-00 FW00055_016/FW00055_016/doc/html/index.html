@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>FW00055 - ASPIRNOVA Scheda Controllo</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.ico"/></td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">FW00055 - ASPIRNOVA Scheda Controllo </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><dl class="section author"><dt>Autore</dt><dd>Walter Giusiano - lab3841 srl <br />
+<a href="#" onclick="location.href='mai'+'lto:'+'wal'+'te'+'r.g'+'iu'+'sia'+'no'+'@la'+'b3'+'841'+'.i'+'t'; return false;">walte<span style="display: none;">.nosp@m.</span>r.gi<span style="display: none;">.nosp@m.</span>usian<span style="display: none;">.nosp@m.</span>o@la<span style="display: none;">.nosp@m.</span>b3841<span style="display: none;">.nosp@m.</span>.it</a></dd></dl>
+<dl class="section version"><dt>Versione</dt><dd><b>FW00055.001</b> - 29/03/2019<ul>
+<li>Versione demo Aspirnova</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.002</b> - 04/04/2019<ul>
+<li>Versione con modifiche richieste dal cliente</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.003</b> - 16/04/2019<ul>
+<li>Aggiunto gestione orari</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.004</b> - 16/09/2019<ul>
+<li>Aggiunto ritardo spegnimento ventole: vengono spente 30 secondi dopo che il sistema è andato in OFF.</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.005</b> - 26/09/2019<ul>
+<li>Ritardo spegnimento ventole: da gestire soltanto se stavo riscaldando (uscita BATT attiva).</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.006</b> - 10/10/2019<ul>
+<li>Abilitato pull up sugli ingressi DIP Switch</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.007</b> - 19/12/2019<ul>
+<li>Portato i valori di default delle ventole al 100%</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.008</b> - 12/08/2020<ul>
+<li>Impostato micro corretto nel progetto: STM32F205RC (256K) anzichè STM32F205RB (128K). A parte il primo prototipo, tutti i lotti prodotti utilizzavano già questo micro.</li>
+<li>Rimosso ottimizzazione. Nelle precedenti versioni veniva utilizzato "Optimize (-O1)". Durante le modifiche per HARDWARE 2020 a volte non comunicava correttamente con il display.</li>
+<li>Gestione HARDWARE_S0283 (7 dip anzichè 4, 2 pin per identificare l'hardware, TACH_F1 e TACH_F2 per misurare la velocità dei motori. Mantenuta compatibilità con hardware S0242):<ul>
+<li>Rimosso gestione RELE_FCOM in quanto non necessario (era attivo su azionamento ventole)</li>
+<li>Rimosso UART5 di debug. Al posto definito i pin PC12 (ex UART5_TX) e PD2 (ex UART5_RX) come ingressi per rilevare revisione hardware (entrambi a 0 &ndash;&gt; HARDWARE_2020, entrambi a 1 &ndash;&gt; HARDWARE_2019)</li>
+<li>Aggiunto DIP_5 alla selezione ID scheda (possibilità di selezionare gli ID da 1 a 32. Nelle precedenti versioni arrivavo solo a 16)</li>
+<li>Aggiunto DIP_6 e DIP_7 per selezionare il baud rate della 485 (DIP_6=OFF DIP_7=OFF &ndash;&gt; 115200, DIP_6=ON DIP_7=OFF &ndash;&gt; 9600, DIP_6=OFF DIP_7=ON &ndash;&gt; 19200)</li>
+<li>Aggiunto ingressi interrupt TACH_F1 (PB0) e TACH_F2 (PB1) per leggere le velocità ventole</li>
+</ul>
+</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.009</b> - 25/09/2020<ul>
+<li>Aggiunto gestione ingresso allarme sanificazione (IO_DIN_HV2)</li>
+<li>Aggiunto lo stato dell'allarme sanificazione, nel registro di stato inviato su modbus.</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.010</b> - 25/01/2021<ul>
+<li>Corretto caricamento registri MODBUS 8 (AUX1) e 9 (AUX2)</li>
+<li>Corretto calcolo percentuale umidità da caricare nel registro MODBUS 81</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.011</b> - 09/02/2021<ul>
+<li>Modificato le percentuali di default di ventola 1 e ventola 2: adesso sono entrambe a 100% mentre nelle precedenti versioni erano rispettivamente a 28% e 42%.</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.012</b> - 04/06/2021<ul>
+<li>Aggiunto gestione riscaldamento iniziale: ogni volta che il sistema va in ON, se la temperatura è inferiore a -5°C viene attivata al 100% per 2 minuti la sola ventola 2. Tutte le altre uscite (ventola 1, batt, h20) rimangono in OFF.</li>
+<li>Durante i 2 minuti di riscaldamento, viene attivato il bit STATUS_INITIAL_WARM_UP all'interno del registro REGISTER_STATUS.</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.013</b> - 13/07/2021<ul>
+<li>Se non è attiva la funzione sterilizzatore, l'uscita RELE_AUX1 si attiva quando il sistema è in ON (con 2 secondi di ritardo) e si disattiva quando il sistema è in OFF.</li>
+<li>Aggiunto gestione Fill Box</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.014</b> - 17/02/2022<ul>
+<li>Aggiunto registro modbus soglia umidità.</li>
+<li>Aggiunto PID su soglia umidità nel caso di sensore umidità presente.</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.015</b> - 04/05/2022<ul>
+<li>Modalità programmi: per ogni orario del calendario aggiunto modalità lavoro (auto/manuale) e percentuale ventole.</li>
+</ul>
+</dd>
+<dd>
+<b>FW00055.016</b> - 11/01/2023<ul>
+<li>Aggiunto gestione contaore totale e parziale (filtro)</li>
+</ul>
+</dd></dl>
+<p><br />
+ <br />
+ <b>Funzionamento</b> <br />
+<br />
+</p>
+<p>MANUALE / INVERNO: <br />
+Se sistema in ON: (per pressione tasto o logica termostato abilitata)<br />
+Ventola 1 = Percentuale Mandata ventola<br />
+Ventola 2 = Percentuale Ritorno ventola<br />
+ Uscita H2O: PID di regolazione se Temperatura di riferimento &gt; temperatura interna<br />
+ Se uscita H2O attiva, abilito uscita RELE_BATT ed imposta PWM BATT = PWM H2O (RELE BATT E PWM BATT utilizzati per riscaldare)<br />
+ Relè bypass attivabile tramite tasto BP.<br />
+</p>
+<p>MANUALE / ESTATE: <br />
+Se sistema in ON: (per pressione tasto o logica termostato abilitata)<br />
+Ventola 1 = Percentuale Mandata ventola<br />
+Ventola 2 = Percentuale Ritorno ventola<br />
+ Uscita H2O: PID di regolazione se Temperatura di riferimento &lt; temperatura interna<br />
+ RELE BATT E PWM BATT sempre disabilitati<br />
+ Relè bypass attivabile tramite tasto BP.<br />
+</p>
+<p>AUTOMATICO / INVERNO: <br />
+Se sistema in ON: (per pressione tasto o logica termostato abilitata)<br />
+Ventola 1 = Percentuale Mandata ventola<br />
+Ventola 2 = Percentuale Ritorno ventola<br />
+ Uscita H2O: PID di regolazione se Temperatura di riferimento &gt; temperatura interna<br />
+ Se uscita H2O attiva, abilito uscita RELE_BATT ed imposta PWM BATT = PWM H2O (RELE BATT E PWM BATT utilizzati per riscaldare)<br />
+ Se gestione CO2 abilitata e valore CO2 &gt; soglia CO2, abilito PID sulle uscite ventole tra percentuale impostata (mandata e ritorno) e massima percentuale ventola. Se sensore umidità abilitato e percentuale umidità &gt; soglia umidità, abilito PID sulle uscite ventole tra percentuale impostata (mandata e ritorno) e massima percentuale ventola.</p>
+<p>Relè bypass attivo se temperatura interna &lt; temperatura esterna e temperatura interna &lt; temperatura di riferimento.<br />
+Se valore CO2 &gt; soglia CO2 &ndash;&gt; relè bypass sempre spento.</p>
+<p>AUTOMATICO / ESTATE: <br />
+Se sistema in ON: (per pressione tasto o logica termostato abilitata)<br />
+Ventola 1 = Percentuale Mandata ventola<br />
+Ventola 2 = Percentuale Ritorno ventola<br />
+ Uscita H2O: PID di regolazione se Temperatura di riferimento &lt; temperatura interna<br />
+ RELE BATT E PWM BATT sempre disabilitati<br />
+ Se gestione CO2 abilitata e valore CO2 &gt; soglia CO2, abilito PID sulle uscite ventole tra percentuale impostata (mandata e ritorno) e massima percentuale ventola. Se sensore umidità abilitato e percentuale umidità &gt; soglia umidità, abilito PID sulle uscite ventole tra percentuale impostata (mandata e ritorno) e massima percentuale ventola.</p>
+<p>Relè bypass attivo se temperatura interna &gt; temperatura esterna e temperatura interna &gt; temperatura di riferimento.<br />
+Se valore CO2 &gt; soglia CO2 &ndash;&gt; relè bypass sempre spento.</p>
+<p><br />
+<br />
+<br />
+ MODALITA' PROGRAMMA: il sistema va in ON ad orari definiti (possibilità di inserire due orari per ogni giorno della settimana).<br />
+Oltre all'orario è possibile definire il comportamento del sistema durante l'attivazione (manuale o automatico) e le percentuali di comando da applicare alle ventole.<br />
+ <br />
+ <br />
+ <b>LED</b> <br />
+<br />
+</p>
+<p>LED ON: cambia stato ogni 250 ms <br />
+LED_PC1: cambia stato ad ogni ricezione di un pacchetto MODBUS <br />
+LED_PC2: cambia stato ad ogni scrittura in flash <br />
+LED_ERR: acceso se flash ripristinata con i valori di default <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ </p>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>
